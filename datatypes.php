@@ -18,7 +18,7 @@ $number = 58;
 //Float
 $float = 20.5784;
 
-
+ 
 //Array
 $sizes = array("Small","Large","Medium");
 echo $sizes ['2'];

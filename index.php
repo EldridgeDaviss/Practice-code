@@ -7,14 +7,17 @@
 </head>
 <body>
 <!--Form for variable-->
+
     <form method="GET">
 <input type="text" name="person">
 <button>Submit</button>
     </form>
 
 <?php
+/*
 $name = $_GET['person'];
 echo $name. " is your favorite student?"
+*/
 ?> 
 
 
