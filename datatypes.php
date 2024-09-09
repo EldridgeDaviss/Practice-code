@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,17 +7,22 @@
     <title>Document</title>
 </head>
 <body>
-<!--Form for variable-->
-    <form method="GET">
-<input type="text" name="person">
-<button>Submit</button>
-    </form>
+    <?php
 
-<?php
-$name = $_GET['person'];
-echo $name. " is your favorite student?"
-?> 
+//String
+$name = 'Why is it morning already?';
+
+//Integer
+$number = 58;
+
+//Float
+$float = 20.5784;
 
 
+//Array
+$sizes = array("Small","Large","Medium");
+echo $sizes ['2'];
+
+?>
 </body>
 </html>
