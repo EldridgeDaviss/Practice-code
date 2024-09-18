@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,16 +7,17 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
 
-    
-    <title>Array</title>
+   
+    <title>Datatypes</title>
 </head>
 <body>
-    <?php 
+    <?php
     include 'includes/header.php';
-    
-    $array = array("Eldridge","John","Sophie","Jacob","Karen");
 
-    echo $array[0];
-    ?>
+
+setcookie("name", "Daniel", Time() + 172800);
+
+$_SESSION['name'] = "12";
+?>
 </body>
 </html>

@@ -1,3 +1,7 @@
+<?php  
+  session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -45,6 +49,20 @@
         <a class="nav-link" href="arrays.php">Arrays</a>
       </li>
     </ul>
+
+
+    <?php 
+    
+    $_SESSION['username'] = " User: JosephPowers96";
+    echo $_SESSION['username'];
+
+    if (!isset($_SESSION['username'])) {
+      echo "You are not logged in!";
+    } else {
+      echo " You are logged in!";
+    }
+
+    ?>
   </div>
 </nav>
 </body>
