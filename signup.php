@@ -16,9 +16,14 @@
 <!--Form for variable-->
 
 <main>
-<p>You Are logged out!</p>
-<p>You Are logged in!</p>
-
+<h1>Sign Up</h1>
+<form action="includes/signup.inc.php" method="post">
+    <input type="text" name="uid" placeholder="Username">
+    <input type="text" name="mail" placeholder="E-mail">
+    <input type="password" name="pwd" placeholder="Password">
+    <input type="password" name="pwd-repeat" placeholder="Repeat Password">
+    <button type="Submit" name="signup-submit">Signup</button>
+</form>
 </main>
 
    
