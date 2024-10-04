@@ -16,8 +16,17 @@
 <!--Form for variable-->
 
 <main>
-<p>You Are logged out!</p>
-<p>You Are logged in!</p>
+<?php 
+ if (isset($_SESSION['userId'])) {
+echo'<p class="login-status">You Are logged in!</p>';
+ }
+else {
+    echo'<p class="login-status">You Are logged out!</p>';
+}
+?>
+
+
+
 
 </main>
 

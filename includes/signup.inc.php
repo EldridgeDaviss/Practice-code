@@ -1,3 +1,7 @@
+
+<link rel="stylesheet" href="style.css">
+
+
 <?php
 if (isset($_POST['signup-submit'])) {
 
