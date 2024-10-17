@@ -14,42 +14,33 @@
 </head>
 <body>
     
-<nav class="navbar navbar-expand-lg navbar-light bg-info">
-  <a class="navbar-brand" href="#">Navbar</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link" href="index.php">Home<span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="operators.php">Operators</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="loops.php">Loops</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="function.php">Function</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="datatypes.php">Datatypes</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="conditionals.php">Conditionals</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="calendar.php">Calendar</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="calculator.php">Calculator</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="arrays.php">Arrays</a>
-      </li>
-    </ul>
-
+<nav class="navbar navbar-expand-md navbar-dark navbg sticky-top">
+    <div class=" justify-content-center">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link txt" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link txt" aria-current="page" href="store.html">Hogs</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link txt" aria-current="page" href="store.html">Other Items</a>
+        </li>
+        <li>
+          <img width="50" height="50" src="img/Logo1.png">
+        </li>
+        <li class="nav-item">
+          <a class="nav-link txt" aria-current="page" href="standings.html">Hog Lore</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link txt" aria-current="page" href="map.html">Legalities</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link txt" aria-current="page" href="rules.html">About us</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
   </div>
 
 <?php
