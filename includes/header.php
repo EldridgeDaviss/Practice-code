@@ -14,36 +14,34 @@
 </head>
 <body>
     
-<nav class="navbar navbar-expand-md navbar-dark navbg sticky-top">
-    <div class=" justify-content-center">
-      <ul class="navbar-nav">
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+  <a class="navbar-brand" href="#">
+      <img src="img/Logo1.jpg" alt="Bootstrap" width="30" height="24">
+    </a>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link txt" aria-current="page" href="index.html">Home</a>
+          <a class="nav-link active" aria-current="page" href="index.php">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link txt" aria-current="page" href="store.html">Hogs</a>
+          <a class="nav-link" href="hogs.php">Hogs</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link txt" aria-current="page" href="store.html">Other Items</a>
-        </li>
-        <li>
-          <img width="50" height="50" src="img/Logo1.png">
+          <a class="nav-link" href="checkout.php">Checkout</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link txt" aria-current="page" href="standings.html">Hog Lore</a>
+          <a class="nav-link" href="Hoglore.php">Hog Lore</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link txt" aria-current="page" href="map.html">Legalities</a>
+          <a class="nav-link" href="legalities.php">Legalities</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link txt" aria-current="page" href="rules.html">About us</a>
+          <a class="nav-link" href="aboutus.php">About us</a>
         </li>
       </ul>
-    </div>
-  </nav>
-  </div>
-
-<?php
+      <?php
 
  if (isset($_SESSION['userId'])) {
   echo' <form action="includes/logout.inc.php" method="post">
@@ -56,15 +54,22 @@
     <input type="password" name="pwd" placeholder="Password...">
     <button type="submit" name="login-submit">Login</button>
   </form>
+  &nbsp;&nbsp;
   <a href="signup.php">Signup</a>';
   }
 
 ?>
+    </div>
+  </div>
+</nav>
+  
+
+
 
 <div>
 
  
 </div>
-</nav>
+
 </body>
 </html>
