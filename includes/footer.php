@@ -9,15 +9,10 @@
           <img id="hogs" src="img/Logo1.png" alt="hogs">
         </div>
         <div class="col-md-6">
-          <h4>Questions?</h4>
-          <br>
-          <form>
-            <div class="form-group">
-              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-              <br>
-              <input class="btn btn-primary float-left" type="submit" value="Submit">
-            </div>
-          </form>
+            <h3>Quick links</h3>
+          <p>Help</p>
+            <p>Shipping info</p>
+            <p>Deals and discounts</p>            
         </div>
         <hr class="my-4">
         <p>&copy; 2024 Your Website. All rights reserved.</p>
