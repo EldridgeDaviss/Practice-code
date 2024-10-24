@@ -14,45 +14,34 @@
 </head>
 <body>
     
-<nav class="navbar navbar-expand-lg navbar-light bg-info">
-  <a class="navbar-brand" href="#">Navbar</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link" href="index.php">Home<span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="operators.php">Operators</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="loops.php">Loops</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="function.php">Function</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="datatypes.php">Datatypes</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="conditionals.php">Conditionals</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="calendar.php">Calendar</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="calculator.php">Calculator</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="arrays.php">Arrays</a>
-      </li>
-    </ul>
-
-  </div>
-
-<?php
+<nav class="navbar sticky-top navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+  <a class="navbar-brand" href="#">
+      <img src="img/Logo1.jpg" alt="Bootstrap" width="30" height="24">
+    </a>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.php">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="hogs.php">Hogs</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="checkout.php">Checkout</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Hoglore.php">Hog Lore</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="legalities.php">Legalities</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="aboutus.php">About us</a>
+        </li>
+      </ul>
+      <?php
 
  if (isset($_SESSION['userId'])) {
   echo' <form action="includes/logout.inc.php" method="post">
@@ -65,15 +54,22 @@
     <input type="password" name="pwd" placeholder="Password...">
     <button type="submit" name="login-submit">Login</button>
   </form>
+  &nbsp;&nbsp;
   <a href="signup.php">Signup</a>';
   }
 
 ?>
+    </div>
+  </div>
+</nav>
+  
+
+
 
 <div>
 
  
 </div>
-</nav>
+
 </body>
 </html>
