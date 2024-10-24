@@ -24,8 +24,8 @@ else {
     echo'<p class="login-status">You Are logged out!</p>';
 }
 ?>
-<div class="container">
-<div id="carouselExampleAutoplaying" class="col-md-2 carousel slide" data-bs-ride="carousel">
+<div class="container-fluid">
+  <div class="row"><div id="carouselExampleAutoplaying" class="col-md-2 carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
       <img src="img/Hog photos/OIP (1).png" class="d-block w-100" alt="...">
@@ -47,9 +47,13 @@ else {
   </button>
 </div>
 
-<div class="col-md-8"></div>
+<div class="col-md-8 justify-content-center card">
+  <div class="card-body">
+    This is some text within a card body.
+  </div>
+</div>
 
-<div id="carouselExampleAutoplaying" class="justify-content-end col-md-2 carousel slide" data-bs-ride="carousel">
+<div id="carouselExampleAutoplaying  hooray" class="justify-content-end col-md-2 carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
       <img src="img/Hog photos/OIP (1).png" class="d-block w-100" alt="...">
@@ -69,7 +73,8 @@ else {
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Next</span>
   </button>
-</div>
+</div></div>
+
 </div>
 
 </main>
