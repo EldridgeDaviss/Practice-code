@@ -13,8 +13,9 @@
     <title>Document</title>
 </head>
 <body>
-    
-<nav class="navbar sticky-top navbar-expand-lg bg-body-tertiary">
+      
+
+<nav class="navbar sticky-top navbar-expand-lg bg-body-tertiary navvy">
   <div class="container-fluid">
   <a class="navbar-brand" href="#">
       <img src="img/Logo1.jpg" alt="Bootstrap" width="30" height="24">
