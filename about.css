@@ -158,3 +158,30 @@ footer p{color:rgb(243, 222, 29) !important}
 footer a{color:rgb(243, 222, 29) !important}
 
 footer h4{color: white !important}
+
+/*index styles*/
+#statement{
+    font-weight: bold;
+    font-size: 50px;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 35px;
+
+}
+#sales{
+    text-align: center;
+}
+
+
+/*legalities style*/
+
+#law{
+    opacity: 0.6;
+    margin: 30px;
+    justify-content: baseline;
+    
+}
+#lawpaper{
+    font-weight: bold;
+}
