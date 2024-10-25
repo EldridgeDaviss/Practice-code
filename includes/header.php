@@ -15,31 +15,31 @@
 <body>
       
 
-<nav class="navbar sticky-top navbar-expand-lg bg-body-tertiary navvy">
+<nav class="navbar sticky-top navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
   <a class="navbar-brand" href="#">
       <img src="img/Logo1.jpg" alt="Bootstrap" width="30" height="24">
     </a>
   
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+    <div class="collapse navbar-collapse" id="navbarSupportedContent" style="background-color:#382102;">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0" >
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="index.php">Home</a>
+          <a class="nav-link active" aria-current="page" href="index.php" style="color: white;">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="hogs.php">Hogs</a>
+          <a class="nav-link" href="hogs.php" style="color: white;">Hogs</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="checkout.php">Checkout</a>
+          <a class="nav-link" href="checkout.php" style="color: white;">Checkout</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="Hoglore.php">Hog Lore</a>
+          <a class="nav-link" href="Hoglore.php" style="color: white;">Hog Lore</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="legalities.php">Legalities</a>
+          <a class="nav-link" href="legalities.php" style="color: white;">Legalities</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="aboutus.php">About us</a>
+          <a class="nav-link" href="aboutus.php" style="color: white;">About us</a>
         </li>
       </ul>
       <?php

@@ -1,7 +1,7 @@
 .aimage {width: 35%; opacity: 90%; top: 0%;}
 .atext {color: white; font-size: 5vw; position: absolute; top: 30%; left: 6%;}
 
-
+#pretext{top:10%; left: 35%; position: absolute; color: #5867dd;}
 
 
 /*Footer*/
@@ -119,7 +119,7 @@ a {
  color:#5867dd
 }
 .mini-footer p a:hover {
- color:#34bfa3
+ color:#447e72
 }
 .widget-about img {
  display:block;

@@ -15,6 +15,11 @@
 </head>
 <body>
 
+<p id="pretext">
+At 10 Feral Hogs,</p>
+
+
+
 <img src="img/Hog photos/OIP(3).jpg" alt="Hog Image" class="aimage">
 <p class="atext">About Us</p>
 
