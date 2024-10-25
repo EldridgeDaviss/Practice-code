@@ -47,12 +47,18 @@ else {
   </button>
 </div>
 
-<div class="col-md-8 justify-content-center card">
+<div class="col-md-5 justify-content-center card">
   <div class="card-body">
-    <h2 class="Justify-Content-Center">We arent just a business. We're a movement. Join the cause</h2>
+    <h2 class="Justify-Content-Center" id="statement">We arent just a business. We're a movement. Join the cause</h2>
   </div>
 </div>
-
+<div class="card col-md-3">
+  <img src="img/Hogs for sale/image.png" class="card-img-top" alt="...">
+  <div class="card-body">
+    <p class="card-text" id="sales">Don't miss out!!  <button type="button" class="btn btn-warning">  20% off</button></p>
+    
+  </div>
+</div>
 <div id="carouselExampleAutoplaying " class="justify-content-end col-md-2 carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
