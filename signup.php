@@ -49,7 +49,10 @@ echo '<p class="signuperror"> Fill in all fields!</p>';
 </main>
 
    
+<?php
+include 'includes/footer.php'
 
+?>
 
 </body>
 </html>

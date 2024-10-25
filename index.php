@@ -49,11 +49,11 @@ else {
 
 <div class="col-md-8 justify-content-center card">
   <div class="card-body">
-    This is some text within a card body.
+    <h2 class="Justify-Content-Center">We arent just a business. We're a movement. Join the cause</h2>
   </div>
 </div>
 
-<div id="carouselExampleAutoplaying  hooray" class="justify-content-end col-md-2 carousel slide" data-bs-ride="carousel">
+<div id="carouselExampleAutoplaying " class="justify-content-end col-md-2 carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
       <img src="img/Hog photos/OIP (1).png" class="d-block w-100" alt="...">
