@@ -171,3 +171,16 @@ footer h4{color: white !important}
 #sales{
     text-align: center;
 }
+
+
+/*legalities style*/
+
+#law{
+    opacity: 0.6;
+    margin: 30px;
+    justify-content: baseline;
+    
+}
+#lawpaper{
+    font-weight: bold;
+}
