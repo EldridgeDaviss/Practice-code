@@ -180,8 +180,14 @@ footer h4{color: white !important}
     opacity: 0.6;
     margin: 30px;
     justify-content: baseline;
+    background-color: grey;
+    
     
 }
 #lawpaper{
     font-weight: bold;
+}
+#law p{ 
+color: #192027;
+
 }
