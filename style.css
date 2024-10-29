@@ -19,3 +19,7 @@ footer{
 }
 
 body{background-color: white !important;}
+
+.custom-cursor {
+    cursor: url('img/hogcursor.png'), auto; /* Replace with your image path */
+}
