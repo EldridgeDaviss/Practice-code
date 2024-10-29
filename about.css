@@ -186,8 +186,12 @@ footer h4{color: white !important}
 }
 #lawpaper{
     font-weight: bold;
+    color: black;
 }
 #law p{ 
 color: #192027;
 
 }
+.lawbody{
+    
+ background-image:url("img/Hog photos/Feral Hogs.jpg");} 
