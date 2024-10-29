@@ -13,6 +13,7 @@
     <title>Home</title>
 </head>
 <body>
+<div class="cursor-area">
 <!--Form for variable-->
 
 <main>
@@ -90,6 +91,7 @@ else {
 include 'includes/footer.php'
 
 ?>
-
+ </div>
+ <script src="script.js"></script>
 </body>
 </html>

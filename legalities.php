@@ -12,7 +12,7 @@
    <br>
     <title>Home</title>
 </head>
-<body>
+<body class="lawbody">
 <div class="container-fluid">
         <div class="row">
             <div class="col-md-7 offset-md-1">
