@@ -11,9 +11,14 @@
     ?>
    <br>
     <title>Home</title>
+    <style>
+        body {
+            cursor: url('images/custom-cursor.png'), auto;
+        }
+    </style>
 </head>
 <body>
-<div class="cursor-area">
+  <div class=cursor>
 <!--Form for variable-->
 
 <main>
@@ -86,9 +91,10 @@ else {
 
 </main>
 
-   
+
 <?php
 include 'includes/footer.php'
+
 
 ?>
  </div>
