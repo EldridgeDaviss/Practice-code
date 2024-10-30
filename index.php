@@ -56,8 +56,9 @@ else {
 </div>
 
 <div class="col-md-5 justify-content-center card">
-  <div class="card-body">
-    <h2 class="Justify-Content-Center" id="statement">We arent just a business. We're a movement. Join the cause</h2>
+  <div class="card-body text-center">
+    <h2 class="Justify-Content-Center" id="statement">We arent just a business. We're a movement.</h2>
+    <button  type="button" class="btn btn-warning causebutton">  Join the Cause.</button>
   </div>
 </div>
 <div class="card col-md-3">
@@ -87,7 +88,8 @@ else {
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Next</span>
   </button>
-</div></div>
+</div> 
+</div>
 
 </div>
 
