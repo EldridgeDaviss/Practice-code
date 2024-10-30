@@ -21,12 +21,23 @@
 
 
 
-<img src="img/Hog photos/OIP(3).jpg" alt="Hog Image" class="aimage">
+<img src="img/Hog photos/OIP(4).jpg" class="aimage" alt="Hog Image">
 <p class="atext">About Us</p>
+<div class="acover"></div>
+
+<div class="blackspace"></div>
+
+<p class="btext">Who We Are</p>
+<p class="parabtext">"At 10 Feral Hogs, our mission is to humanely transform wild hogs into well-adjusted animals <br>
+                      through compassionate training, sustainable practices, and dedication to harmonious coexistence. <br>
+                       We believe in bridging the gap between the wild and domestic worlds, turning <br>
+                        challenges into opportunities for positive change in the ecosystem."</p>
 
 
 
+<button class="button" href="hogs.php" > Shop With Us!</button>
 
+<br>
 <?php
 include 'includes/footer.php'
 

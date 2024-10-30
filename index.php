@@ -11,8 +11,14 @@
     ?>
    <br>
     <title>Home</title>
+    <style>
+        body {
+            cursor: url('images/custom-cursor.png'), auto;
+        }
+    </style>
 </head>
 <body>
+  <div class=cursor>
 <!--Form for variable-->
 
 <main>
@@ -80,19 +86,20 @@ else {
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Next</span>
   </button>
-</div></div>
+</div> 
+</div>
 
 </div>
 
 </main>
 
-   
+
 <?php
 include 'includes/footer.php'
 
+
 ?>
-    
-
-
+ </div>
+ <script src="script.js"></script>
 </body>
 </html>

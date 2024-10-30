@@ -1,6 +1,7 @@
 <link rel="stylesheet" href="about.css"> 
  
  <!--Footer-->
+ <div class="footerdown">
 <footer class="footer-area footer--light ">
     <div class="footer-big">
       <!-- start .container -->
@@ -130,3 +131,4 @@
       </div>
     </div>
   </footer>
+  </div>

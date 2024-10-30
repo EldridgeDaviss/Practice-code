@@ -54,7 +54,7 @@ I, the undersigned, have read, understood, and agreed to the above terms and con
 Customer Signature: _______________________
 Date: _____________________
 Printed Name: ____________________</p>
-                        <a href="#" class="btn btn-warning">Make your purchase</a>
+                        <a href="hogs.php" class="btn btn-warning">Make your purchase</a>
                     </div>
                 </div>
             </div>

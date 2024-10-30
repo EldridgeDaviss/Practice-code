@@ -1,9 +1,49 @@
-.aimage {width: 35%; opacity: 90%; top: 0%;}
-.atext {color: white; font-size: 5vw; position: absolute; top: 30%; left: 6%;}
+body{height: 290vh;}
+
+
+.aimage {width: 100%; opacity: 90%; top: 0%; left: 0%;}
+.atext {color: white; font-size: 8vw; position: absolute; top: 22%; left: 35%; z-index: 2;}
 
 #ptext{top:10%; left: 35%; position: absolute; color: #ac3714;}
 
+.acover {width: 100%; background-color: #192027 ; height: 49% ; top: 0%;
+     position: absolute; opacity: 20%;}
 
+.blackspace{position:relative; 
+     width: 100%; background-color: #272d33; height: 30%; 
+   }
+
+   .btext {color: white; font-size: 4vw; position: absolute; top: 55%; left: 38%; z-index: 2;}
+ 
+.parabtext {color: white; font-size: 2vw; position: absolute; top: 60%; left: 8%; z-index: 2;}
+
+.button {
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: #f78317;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    top: 70%; left: 44%; z-index: 2; position: absolute;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+  }
+  
+  .button:active {
+    background-color: #003f7f;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+    transform: translateY(1px);
+  }
+
+.footerdown{margin-top: -3vh;}
 
 /*Footer*/
 @import url(https://fonts.googleapis.com/css?family=Rubik:300,400,500,700);
