@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="about.css">
     <?php
     include 'includes/header.php';
     ?>
@@ -16,7 +16,7 @@
 <div class="container-fluid">
         <div class="row">
             <div class="col-md-7 offset-md-1">
-                <div class="card" id="law">
+                <div class="card" >
                     <div class="card-body lawwords" >
                         <h5 class="card-title" id="lawpaper">Legal and Humane Sale of Hogs</h5>
                         <p class="card-text">1. Acknowledgment of Risks
@@ -51,9 +51,77 @@ Customer Acknowledgment and Signature
 
 I, the undersigned, have read, understood, and agreed to the above terms and conditions. I acknowledge the inherent risks associated with purchasing and owning hogs and assume full responsibility for any potential outcomes.
 
-Customer Signature: _______________________
-Date: _____________________
-Printed Name: ____________________</p>
+<div class="signature-container">
+    <h3>Customer Signature</h3>
+    <div class="canvas-wrapper">
+        <canvas id="signatureCanvas"></canvas>
+    </div>
+    <button id="signatureButton" onclick="clearCanvas()">Clear Signature</button>
+    <div class="input-field">
+            <label for="customerName">Name:</label>
+            <input type="text" id="customerName" placeholder="Enter your name">
+        </div>
+        <div class="input-field">
+            <label for="signatureDate">Date:</label>
+            <input type="date" id="signatureDate">
+        </div>
+</div>
+<script>
+    const canvas = document.getElementById('signatureCanvas');
+    const ctx = canvas.getContext('2d');
+    let drawing = false;
+
+    // Adjust canvas dimensions for proper signature capture
+    canvas.width = canvas.offsetWidth;
+    canvas.height = canvas.offsetHeight;
+
+    // Function to start drawing
+    canvas.addEventListener('mousedown', (e) => {
+        drawing = true;
+        ctx.beginPath();
+        ctx.moveTo(e.offsetX, e.offsetY);
+    });
+
+    // Drawing as the mouse moves
+    canvas.addEventListener('mousemove', (e) => {
+        if (drawing) {
+            ctx.lineTo(e.offsetX, e.offsetY);
+            ctx.stroke();
+        }
+    });
+
+    // Stop drawing on mouse up
+    canvas.addEventListener('mouseup', () => {
+        drawing = false;
+    });
+
+    // Touch support for mobile devices
+    canvas.addEventListener('touchstart', (e) => {
+        drawing = true;
+        const rect = canvas.getBoundingClientRect();
+        ctx.beginPath();
+        ctx.moveTo(e.touches[0].clientX - rect.left, e.touches[0].clientY - rect.top);
+    });
+
+    canvas.addEventListener('touchmove', (e) => {
+        if (drawing) {
+            const rect = canvas.getBoundingClientRect();
+            ctx.lineTo(e.touches[0].clientX - rect.left, e.touches[0].clientY - rect.top);
+            ctx.stroke();
+        }
+    });
+
+    canvas.addEventListener('touchend', () => {
+        drawing = false;
+    });
+
+    // Clear the canvas
+    function clearCanvas() {
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+    }
+</script>
+
+</p>
                         <a href="hogs.php" class="btn btn-warning">Make your purchase</a>
                     </div>
                 </div>
