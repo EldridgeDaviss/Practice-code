@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<link rel="icon" type="image/x-icon" href="img/Hog photos/hogfavicon.ico">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
@@ -11,9 +12,15 @@
     ?>
    <br>
     <title>Home</title>
+    
+    <style>
+        body {
+            cursor: url('images/custom-cursor.png'), auto;
+        }
+    </style>
 </head>
 <body>
-<div class="cursor-area">
+  <div class=cursor>
 <!--Form for variable-->
 
 <main>
@@ -49,8 +56,9 @@ else {
 </div>
 
 <div class="col-md-5 justify-content-center card">
-  <div class="card-body">
-    <h2 class="Justify-Content-Center" id="statement">We arent just a business. We're a movement. Join the cause</h2>
+  <div class="card-body text-center">
+    <h2 class="Justify-Content-Center" id="statement">We arent just a business. We're a movement.</h2>
+    <button  type="button" class="btn btn-warning causebutton">  Join the Cause.</button>
   </div>
 </div>
 <div class="card col-md-3">
@@ -80,15 +88,17 @@ else {
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Next</span>
   </button>
-</div></div>
+</div> 
+</div>
 
 </div>
 
 </main>
 
-   
+
 <?php
 include 'includes/footer.php'
+
 
 ?>
  </div>
