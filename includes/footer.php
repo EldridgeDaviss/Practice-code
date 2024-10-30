@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="about.css"> 
+<link rel="stylesheet" href="footer.css"> 
  
  <!--Footer-->
  <div class="footerdown">
