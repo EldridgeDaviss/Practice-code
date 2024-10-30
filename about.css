@@ -176,22 +176,25 @@ footer h4{color: white !important}
 
 /*legalities style*/
 
-#law{
-    opacity: 0.6;
-    margin: 30px;
-    justify-content: baseline;
-    background-color: grey;
-    
-    
-}
-#lawpaper{
-    font-weight: bold;
-    color: black;
-}
-#law p{ 
-color: #192027;
 
+#law {
+    background-color: rgba(255, 255, 255); /* White background with 60% opacity */
+    color: #000; /* Full opacity text color */
+    padding: 20px;
+    border-radius: 8px;
 }
+ 
+
 .lawbody{
     
  background-image:url("img/Hog photos/Feral Hogs.jpg");} 
+
+ /*cause button*/
+
+.causebutton{
+justify-content: center;
+align-content: center;
+width: 100px;
+height: 200px;
+
+ }
