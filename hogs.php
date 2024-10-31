@@ -52,10 +52,10 @@
     <div class="product-info">
       <h2>X10 Baby Hogs</h2>
       <p>Best Seller</p>
-      <div class="price">$1000</div>
+      <div class="price">$2000 </div>
     </div>
     <div class="btn">
-      <button class="buy-btn">Buy Now</button>
+      <button class="buy-btn"><a href="item2.php">Buy Now</a></button>
       <button class="fav">
         <svg class="svg" id="i-star" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
           <path d="M16 2 L20 12 30 12 22 19 25 30 16 23 7 30 10 19 2 12 12 12 Z" />
@@ -73,7 +73,7 @@
       <div class="price">$1000</div>
     </div>
     <div class="btn">
-      <button class="buy-btn">Buy Now</button>
+      <button class="buy-btn"><a href="item3.php">Buy Now </a></button>
       <button class="fav">
         <svg class="svg" id="i-star" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
           <path d="M16 2 L20 12 30 12 22 19 25 30 16 23 7 30 10 19 2 12 12 12 Z" />
@@ -86,15 +86,15 @@
 <main class="container">
   <section class="card">
     <div class="product-image">
-      <img src="img/Hog photos/OIP(4).jpg" alt="OFF-white Red Edition" draggable="false" />
+      <img src="img/Hog photos/OIP(6).jpg" alt="OFF-white Red Edition" draggable="false" />
     </div>
     <div class="product-info">
-      <h2>Nike X OFF-white</h2>
+      <h2>X10 Military Hog</h2>
       <p>Buyer's Choice</p>
-      <div class="price">$999</div>
+      <div class="price">$1500</div>
     </div>
     <div class="btn">
-      <button class="buy-btn">Buy Now</button>
+      <button class="buy-btn"><a href="item4.php">Buy Now </a></button>
       <button class="fav">
         <svg class="svg" id="i-star" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
           <path d="M16 2 L20 12 30 12 22 19 25 30 16 23 7 30 10 19 2 12 12 12 Z" />
@@ -104,15 +104,15 @@
   </section>
   <section class="card card-blue">
     <div class="product-image">
-      <img src="img/Hog photos/OIP(4).jpg" alt="OFF-white Blue Edition" draggable="false" />
+      <img src="img/Hog photos/OIP(7).jpg" alt="OFF-white Blue Edition" draggable="false" />
     </div>
     <div class="product-info">
-      <h2>Nike X OFF-white</h2>
+      <h2>10X Chariot Hog</h2>
       <p>Buyer's Choice</p>
-      <div class="price">$1599</div>
+      <div class="price">$3000</div>
     </div>
     <div class="btn">
-      <button class="buy-btn">Buy Now</button>
+      <button class="buy-btn"><a href="item5.php">Buy Now </a></button>
       <button class="fav">
         <svg class="svg" id="i-star" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
           <path d="M16 2 L20 12 30 12 22 19 25 30 16 23 7 30 10 19 2 12 12 12 Z" />
@@ -127,15 +127,15 @@
 <main class="container">
   <section class="card">
     <div class="product-image">
-      <img src="img/Hog photos/OIP(4).jpg" alt="OFF-white Red Edition" draggable="false" />
+      <img src="img/Hog photos/OIP(8).jpg" alt="OFF-white Red Edition" draggable="false" />
     </div>
     <div class="product-info">
-      <h2>Nike X OFF-white</h2>
+      <h2>X10 Mercenary Hog</h2>
       <p>Buyer's Choice</p>
-      <div class="price">$999</div>
+      <div class="price">$1100</div>
     </div>
     <div class="btn">
-      <button class="buy-btn">Buy Now</button>
+      <button class="buy-btn"><a href="item6.php">Buy Now </a></button>
       <button class="fav">
         <svg class="svg" id="i-star" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
           <path d="M16 2 L20 12 30 12 22 19 25 30 16 23 7 30 10 19 2 12 12 12 Z" />
@@ -145,15 +145,15 @@
   </section>
   <section class="card card-blue">
     <div class="product-image">
-      <img src="img/Hog photos/OIP(4).jpg" alt="OFF-white Blue Edition" draggable="false" />
+      <img src="img/Hog photos/OIP(9).jpg" alt="OFF-white Blue Edition" draggable="false" />
     </div>
     <div class="product-info">
-      <h2>Nike X OFF-white</h2>
+      <h2>X10 Police Hog</h2>
       <p>Buyer's Choice</p>
-      <div class="price">$1599</div>
+      <div class="price">$1200</div>
     </div>
     <div class="btn">
-      <button class="buy-btn">Buy Now</button>
+      <button class="buy-btn"><a href="item7.php">Buy Now </a></button>
       <button class="fav">
         <svg class="svg" id="i-star" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
           <path d="M16 2 L20 12 30 12 22 19 25 30 16 23 7 30 10 19 2 12 12 12 Z" />
@@ -166,15 +166,15 @@
 <main class="container">
   <section class="card">
     <div class="product-image">
-      <img src="img/Hog photos/OIP(4).jpg" alt="OFF-white Red Edition" draggable="false" />
+      <img src="img/Hog photos/OIP(10).jpg" alt="OFF-white Red Edition" draggable="false" />
     </div>
     <div class="product-info">
-      <h2>Nike X OFF-white</h2>
+      <h2>X10 Armored Hog</h2>
       <p>Buyer's Choice</p>
-      <div class="price">$999</div>
+      <div class="price">$2000</div>
     </div>
     <div class="btn">
-      <button class="buy-btn">Buy Now</button>
+      <button class="buy-btn"><a href="item8.php">Buy Now </a></button>
       <button class="fav">
         <svg class="svg" id="i-star" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
           <path d="M16 2 L20 12 30 12 22 19 25 30 16 23 7 30 10 19 2 12 12 12 Z" />
@@ -184,15 +184,15 @@
   </section>
   <section class="card card-blue">
     <div class="product-image">
-      <img src="img/Hog photos/OIP(4).jpg" alt="OFF-white Blue Edition" draggable="false" />
+      <img src="img/Hog photos/OIP(11).jpg" alt="OFF-white Blue Edition" draggable="false" />
     </div>
     <div class="product-info">
-      <h2>Nike X OFF-white</h2>
+      <h2>X10 Albino Hog</h2>
       <p>Buyer's Choice</p>
-      <div class="price">$1599</div>
+      <div class="price">$5000</div>
     </div>
     <div class="btn">
-      <button class="buy-btn">Buy Now</button>
+      <button class="buy-btn"><a href="item.php"> Buy Now </a> </button>
       <button class="fav">
         <svg class="svg" id="i-star" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
           <path d="M16 2 L20 12 30 12 22 19 25 30 16 23 7 30 10 19 2 12 12 12 Z" />

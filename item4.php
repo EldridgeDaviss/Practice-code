@@ -21,12 +21,12 @@
  <div class="row">
    <div class="left col-md-6">
      <i class="fa fa-arrow-left" aria-hidden="true"></i>
-     <img class="headset" src="img/Hog photos/OIP(11).jpg">
+     <img class="headset" src="img/Hog photos/OIP(6).jpg">
      <i class="fa fa-arrow-right" aria-hidden="true"></i>
    </div>
    <div class="right col-md-6">
      <h4 class="categorie">Hog X10</h4>
-     <h3 class="product">Albino Hog - Los Angeles</h3>
+     <h3 class="product">Military Hog - Los Angeles</h3>
      <ul class="desc">
        <li>High Quality, FDA Approved Hogs</li>
        <li>Hogs That Save The Environment</li>
@@ -37,7 +37,7 @@
        <i class="color-black fa fa-check" aria-hidden="true"></i>
        <i class="color-white fa fa-check" aria-hidden="true"></i>
    </div>
-   <p class="price">$5000</p>
+   <p class="price">$1500</p>
      <p class="buy">Add To Cart</p>
   </div>
 </div>
