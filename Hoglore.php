@@ -30,7 +30,9 @@
                     </h2>
                     <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                            Content for Tab 1 goes here.
+                            <p>
+                                Your hogs come from all over North America to our headquaters for shipping, some key locations are North Carolina, Tennessee, Alabama, and Mississippi
+                            </p>
                         </div>
                     </div>
                 </div>
