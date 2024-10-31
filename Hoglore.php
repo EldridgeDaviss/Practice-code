@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="about.css">
     <?php
     include 'includes/header.php';
     ?>
@@ -18,7 +18,7 @@
 <div class="container my-4">
     <h2 class="text-center">Hog Lore</h2>
     <div class="row justify-content-center">
-        <div class="col-md-6"> <!-- Adjust the column width here -->
+        <div class="col-md-8"> <!-- Adjust the column width here -->
             <div class="accordion" id="accordionExample">
 
                 <!-- Tab 1 -->
@@ -30,21 +30,24 @@
                     </h2>
                     <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                            Content for Tab 1 goes here.
+                            <img src="img/assorted/2024_10_31_0c9_Kleki.png" alt="">
+                            <br>
+                            <p>Whichever green zone your house is in, your hogs will come from the red counties within that zone. (Customers outside the contiguous 48 will recieve hogs from  ) </p>
                         </div>
                     </div>
                 </div>
-
                 <!-- Tab 2 -->
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="headingTwo">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                            Tab 2
+                            Vendor Tales
                         </button>
                     </h2>
                     <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                            Content for Tab 2 goes here.
+                        <p >We interviewed a man from the Mountains of southern Appalchia to detail his experience with our busniess. This is what he had to say.</p>
+
+                            <h4>"I was buildimg a cabin in the woods, right outside cherokee national forsta nd i heard hogs up on the ridge. My first thought was to call 10 feral Hogs. They immediatly cam and rescued the Hogs, ensuring they went to a good home" <br> -Brian Buchholz 2025 TSSAA Boys Class A Cross Country Champion</h4></p>
                         </div>
                     </div>
                 </div>
@@ -53,12 +56,12 @@
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="headingThree">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            Tab 3
+                            Why buying hogs makes you a good person
                         </button>
                     </h2>
                     <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                            Content for Tab 3 goes here.
+                            When you amke a purchase from 10 feral Hogs, you are supporting an industry dedicated to improving the world. Gone are the days of industrial destruction of our Environment. We uphold traditional capitalist values and support the boon of free trade, but the environment is our first priority. Your purchase will help renew the lives of these once dangerous animlas with a sense of purpose healthy for them and humanity.
                         </div>
                     </div>
                 </div>
