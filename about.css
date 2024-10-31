@@ -2,7 +2,7 @@ body{height: 290vh;}
 
 
 .aimage {width: 100%; opacity: 90%; top: 0%; left: 0%;}
-.atext {color: white; font-size: 8vw; position: absolute; top: 22%; left: 35%; z-index: 2; font-style: italic; font-family: 'Times New Roman', Times, serif;}
+.atext {color: white; font-size: 8vw; position: absolute; top: 22%; left: 35%; z-index: 2;}
 
 #ptext{top:10%; left: 35%; position: absolute; color: #ac3714;}
 
@@ -13,7 +13,7 @@ body{height: 290vh;}
      width: 100%; background-color: #272d33; height: 30%; 
    }
 
-   .btext {color: white; font-size: 4vw; position: absolute; top: 55%; left: 38%; z-index: 2; font-style: italic; font-family: 'Times New Roman', Times, serif;}
+   .btext {color: white; font-size: 4vw; position: absolute; top: 55%; left: 38%; z-index: 2; }
  
 .parabtext {color: white; font-size: 2vw; position: absolute; top: 60%; left: 8%; z-index: 2;}
 
