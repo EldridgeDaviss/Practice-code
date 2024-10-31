@@ -18,7 +18,7 @@
 <div class="container my-4">
     <h2 class="text-center">Hog Lore</h2>
     <div class="row justify-content-center">
-        <div class="col-md-6"> <!-- Adjust the column width here -->
+        <div class="col-md-8"> <!-- Adjust the column width here -->
             <div class="accordion" id="accordionExample">
 
                 <!-- Tab 1 -->
@@ -30,21 +30,22 @@
                     </h2>
                     <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                            Content for Tab 1 goes here.
+                            <img src="img/assorted/2024_10_31_0c9_Kleki.png" alt="">
+                            <br>
+                            <p>Whichever green zone your house is in, your hogs will come from the red counties within that zone. (Customers outside the contiguous 48 will recieve hogs from  ) </p>
                         </div>
                     </div>
                 </div>
-
                 <!-- Tab 2 -->
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="headingTwo">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                            Tab 2
+                            Vendor Tales
                         </button>
                     </h2>
                     <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                            Content for Tab 2 goes here.
+                           <p>"I was buildimg a cabin in the woods, right outside cherokee national forsta nd i heard hogs up on the ridge. My first thought was to call 10 feral Hogs. They immediatly cam and rescued the Hogs, ensuring they went to a good home"</p>
                         </div>
                     </div>
                 </div>
