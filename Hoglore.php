@@ -30,15 +30,9 @@
                     </h2>
                     <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-<<<<<<< HEAD
-                            <p>
-                                Your hogs come from all over North America to our headquaters for shipping, some key locations are North Carolina, Tennessee, Alabama, and Mississippi
-                            </p>
-=======
                             <img src="img/assorted/2024_10_31_0c9_Kleki.png" alt="">
                             <br>
                             <p>Whichever green zone your house is in, your hogs will come from the red counties within that zone. (Customers outside the contiguous 48 will recieve hogs from  ) </p>
->>>>>>> d5760ba65db8246c09fc5b818a6706498fa99118
                         </div>
                     </div>
                 </div>
