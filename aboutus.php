@@ -36,7 +36,7 @@
 
 
 
-<button class="button" href="hogs.php" > Shop With Us!</button>
+                        <a href="hogs.php" class="shopw"> <button class="button">  Shop With Us!</button></a>
 
 <br>
 <?php

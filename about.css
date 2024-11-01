@@ -21,7 +21,7 @@ body{height: 290vh;}
     padding: 12px 24px;
     font-size: 16px;
     font-weight: 600;
-    color: #ffffff;
+    color: #ffffff !important;
     background-color: #f78317;
     border: none;
     border-radius: 8px;
@@ -29,6 +29,7 @@ body{height: 290vh;}
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
     top: 70%; left: 44%; z-index: 2; position: absolute;
+    text-decoration: none !important;
   }
   
   .button:hover {
@@ -44,6 +45,11 @@ body{height: 290vh;}
   }
 
 .footerdown{margin-top: -3vh;}
+
+
+
+.shopw {text-decoration: none !important; color: white !important;}
+
 
 
 

@@ -33,7 +33,7 @@
        <li>10 Feral Hogs - The Best Hog Company</li>
      </ul>
      <div class="color">
-       <p class="title-colour">Color : <span class="blackwhite">Black</span></p>
+       <p class="title-colour">Color : <span class="blackwhite">Default</span></p>
        <i class="color-black fa fa-check" aria-hidden="true"></i>
        <i class="color-white fa fa-check" aria-hidden="true"></i>
    </div>
