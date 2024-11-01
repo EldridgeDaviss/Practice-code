@@ -26,10 +26,10 @@
 <main>
 <?php 
  if (isset($_SESSION['userId'])) {
-echo'<p class="login-status">You Are logged in!</p>';
+echo'<p class="login-status">You Are Hogged in!</p>';
  }
 else {
-    echo'<p class="login-status">You Are logged out!</p>';
+    echo'<p class="login-status">You Are Hogged out!</p>';
 }
 ?>
 <div class="container-fluid">

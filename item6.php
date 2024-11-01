@@ -29,7 +29,7 @@
      <h3 class="product">Mercenary Hog - Los Angeles</h3>
      <ul class="desc">
        <li>High Quality, FDA Approved Hogs</li>
-       <li>Hogs That Save The Environment</li>
+       <li>The alternative to millitary hogs. Their Discipline might be lacking, but their skill in both formal and informal combat should not be underestimated. The are a truely lethal force on the battlefield.</li>
        <li>10 Feral Hogs - The Best Hog Company</li>
      </ul>
      <div class="color">

@@ -29,7 +29,7 @@
      <h3 class="product">Police Hog - Los Angeles</h3>
      <ul class="desc">
        <li>High Quality, FDA Approved Hogs</li>
-       <li>Hogs That Save The Environment</li>
+       <li>Issues with crime and security? Problem solved with Police Hog. These highly trained swine will work day and night to protect and track down potential intruders and confirmed criminals.</li>
        <li>10 Feral Hogs - The Best Hog Company</li>
      </ul>
      <div class="color">

@@ -29,7 +29,7 @@
      <h3 class="product">Baby Hog - Los Angeles</h3>
      <ul class="desc">
        <li>High Quality, FDA Approved Hogs</li>
-       <li>Hogs That Save The Environment</li>
+       <li>These cute little hos will surely grab the attention of your loved ones, serving as great pets and a good investment. After a few years they will have matured and be ready for whatever hog business you've suited them for.</li>
        <li>10 Feral Hogs - The Best Hog Company</li>
      </ul>
      <div class="color">

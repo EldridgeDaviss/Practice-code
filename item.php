@@ -29,7 +29,7 @@
      <h3 class="product">Albino Hog - Los Angeles</h3>
      <ul class="desc">
        <li>High Quality, FDA Approved Hogs</li>
-       <li>Hogs That Save The Environment</li>
+       <li>The Finest swine in the business, these majestic beauties are the crown jewel of our industry. With an unmatched aura, the albino hog will ensure your neighbors know who is #1.</li>
        <li>10 Feral Hogs - The Best Hog Company</li>
      </ul>
      <div class="color">

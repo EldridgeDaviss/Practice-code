@@ -29,7 +29,7 @@
      <h3 class="product">Military Hog - Los Angeles</h3>
      <ul class="desc">
        <li>High Quality, FDA Approved Hogs</li>
-       <li>Hogs That Save The Environment</li>
+       <li>The alternative to mercenary Hogs, military hogs come with the finest discipline and versatility in the land. They will carry out any task or operation with the finest levels of efficiency and organization.</li>
        <li>10 Feral Hogs - The Best Hog Company</li>
      </ul>
      <div class="color">
