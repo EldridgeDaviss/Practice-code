@@ -45,7 +45,7 @@
                     </h2>
                     <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                           <p>"I was buildimg a cabin in the woods, right outside cherokee national forsta nd i heard hogs up on the ridge. My first thought was to call 10 feral Hogs. They immediatly cam and rescued the Hogs, ensuring they went to a good home"</p>
+                           <p>"I was building a cabin in the woods, right outside Cherokee National Forest and i heard hogs up on the ridge. My first thought was to call 10 Feral Hogs. They immediatly came and rescued the Hogs, ensuring they went to a good home"</p>
                         </div>
                     </div>
                 </div>
