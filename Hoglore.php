@@ -70,12 +70,12 @@
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="headingFour">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                            Tab 4
+                            How we benefit the economy
                         </button>
                     </h2>
                     <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                            Content for Tab 4 goes here.
+                            !0 feral hogs puts good American currency into circulation while alliieting the public cost of animal removal. We maintain our peice of the environment giving the government flexibilty to maintain theirs.
                         </div>
                     </div>
                 </div>
