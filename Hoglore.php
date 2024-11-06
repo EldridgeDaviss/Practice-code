@@ -79,7 +79,7 @@
                     </h2>
                     <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                            10 Feral Hogs puts good American currency into circulation while allinating the public cost of animal removal. We maintain our piece of the environment giving the government flexibilty to maintain theirs.
+                            10 Feral Hogs puts good American currency into circulation while alienting the public cost of animal removal. We maintain our piece of the environment giving the government flexibilty to maintain theirs.
                         </div>
                     </div>
                 </div>
