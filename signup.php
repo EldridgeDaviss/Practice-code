@@ -12,6 +12,8 @@
     ?>
    <br>
     <title>Home</title>
+    
+   
 </head>
 <body>
 <!--Form for variable-->
