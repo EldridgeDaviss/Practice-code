@@ -29,7 +29,7 @@
      <h3 class="product">Chariot Hog - Los Angeles</h3>
      <ul class="desc">
        <li>High Quality, FDA Approved Hogs</li>
-       <li>Gone are the days of high lithium gas guzzlers, now are the days of chariot hog. An environmentally conscious alternative to both fossil fuel and electric vehicles, the chariot Hog will get you to your destination with speed and efficiency. </li>
+       <li>Gone are the days of high lithium gas guzzlers, now are the days of the chariot hog. An environmentally conscious alternative to both fossil fuel and electric vehicles, the Chariot Hog will get you to your destination with speed and efficiency. </li>
        <li>10 Feral Hogs - The Best Hog Company</li>
      </ul>
      <div class="color">

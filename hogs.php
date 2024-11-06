@@ -31,7 +31,7 @@
 							Save The Environment
 						</h6>
 						<p>
-							We sell a variety of hogs, look throught them all and find a companion for life.
+							We sell a variety of hogs, look through them all and find a companion for life.
 							
 						</p>
 					</div>

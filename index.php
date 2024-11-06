@@ -61,7 +61,7 @@ else {
       <img src="img/Hog photos/OIP (2).png" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="img/Hog photos/OIP.png" class="d-block w-100" alt="...">
+      <img src="img/Hog photos/Homepagehog.png" class="d-block w-100" alt="...">
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
@@ -96,7 +96,7 @@ else {
       <img src="img/Hog photos/OIP (2).png" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="img/Hog photos/OIP.png" class="d-block w-100" alt="...">
+      <img src="img/Hog photos/Homepagehog.png" class="d-block w-100" alt="...">
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
