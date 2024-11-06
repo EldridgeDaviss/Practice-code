@@ -48,9 +48,9 @@
 <<<<<<< HEAD
                            <p>"I was building a cabin in the woods, right outside Cherokee National Forest and i heard hogs up on the ridge. My first thought was to call 10 Feral Hogs. They immediatly came and rescued the Hogs, ensuring they went to a good home"</p>
 =======
-                        <p >We interviewed a man from the Mountains of southern Appalchia to detail his experience with our busniess. This is what he had to say.</p>
+                        <p >We interviewed a man from the mountains of southern Appalchia to detail his experience with our busniess. This is what he had to say.</p>
 
-                            <h4>"I was buildimg a cabin in the woods, right outside cherokee national forsta nd i heard hogs up on the ridge. My first thought was to call 10 feral Hogs. They immediatly cam and rescued the Hogs, ensuring they went to a good home" <br> -Brian Buchholz 2025 TSSAA Boys Class A Cross Country Champion</h4></p>
+                            <h4>"I was building a cabin in the woods, right outside Cherokee National Forest and i heard hogs up on the ridge. My first thought was to call 10 Feral Hogs. They immediatly came and rescued the Hogs, ensuring they went to a good home" <br> -Brian Buchholz 2025 TSSAA Boys Class A Cross Country Champion</h4></p>
 >>>>>>> bd8504949740d6e17bce3954aac699dc86d277b9
                         </div>
                     </div>
@@ -65,7 +65,7 @@
                     </h2>
                     <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                            When you amke a purchase from 10 feral Hogs, you are supporting an industry dedicated to improving the world. Gone are the days of industrial destruction of our Environment. We uphold traditional capitalist values and support the boon of free trade, but the environment is our first priority. Your purchase will help renew the lives of these once dangerous animlas with a sense of purpose healthy for them and humanity.
+                            When you makke a purchase from 10 Feral Hogs, you are supporting an industry dedicated to improving the world. Gone are the days of industrial destruction of our environment. We uphold traditional capitalist values and support the boon of free trade, but the environment is our first priority. Your purchase will help renew the lives of these once dangerous animals with a sense of purpose healthy for them and humanity.
                         </div>
                     </div>
                 </div>
@@ -79,7 +79,7 @@
                     </h2>
                     <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                            !0 feral hogs puts good American currency into circulation while alliieting the public cost of animal removal. We maintain our peice of the environment giving the government flexibilty to maintain theirs.
+                            10 Feral Hogs puts good American currency into circulation while allinating the public cost of animal removal. We maintain our piece of the environment giving the government flexibilty to maintain theirs.
                         </div>
                     </div>
                 </div>
