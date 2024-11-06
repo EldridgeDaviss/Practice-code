@@ -45,7 +45,13 @@
                     </h2>
                     <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
+<<<<<<< HEAD
                            <p>"I was building a cabin in the woods, right outside Cherokee National Forest and i heard hogs up on the ridge. My first thought was to call 10 Feral Hogs. They immediatly came and rescued the Hogs, ensuring they went to a good home"</p>
+=======
+                        <p >We interviewed a man from the Mountains of southern Appalchia to detail his experience with our busniess. This is what he had to say.</p>
+
+                            <h4>"I was buildimg a cabin in the woods, right outside cherokee national forsta nd i heard hogs up on the ridge. My first thought was to call 10 feral Hogs. They immediatly cam and rescued the Hogs, ensuring they went to a good home" <br> -Brian Buchholz 2025 TSSAA Boys Class A Cross Country Champion</h4></p>
+>>>>>>> bd8504949740d6e17bce3954aac699dc86d277b9
                         </div>
                     </div>
                 </div>
@@ -54,12 +60,12 @@
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="headingThree">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            Tab 3
+                            Why buying hogs makes you a good person
                         </button>
                     </h2>
                     <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                            Content for Tab 3 goes here.
+                            When you amke a purchase from 10 feral Hogs, you are supporting an industry dedicated to improving the world. Gone are the days of industrial destruction of our Environment. We uphold traditional capitalist values and support the boon of free trade, but the environment is our first priority. Your purchase will help renew the lives of these once dangerous animlas with a sense of purpose healthy for them and humanity.
                         </div>
                     </div>
                 </div>

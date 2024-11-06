@@ -21,15 +21,15 @@
  <div class="row">
    <div class="left col-md-6">
      <i class="fa fa-arrow-left" aria-hidden="true"></i>
-     <img class="headset" src="img/Hog photos/OIP(11).jpg">
+     <img class="headset" src="img/Hog photos/OIP(10).jpg">
      <i class="fa fa-arrow-right" aria-hidden="true"></i>
    </div>
    <div class="right col-md-6">
      <h4 class="categorie">Hog X10</h4>
-     <h3 class="product">Albino Hog - Los Angeles</h3>
+     <h3 class="product">Armored Hog - Los Angeles</h3>
      <ul class="desc">
        <li>High Quality, FDA Approved Hogs</li>
-       <li>The Finest swine in the business, these majestic beauties are the crown jewel of our industry. With an unmatched aura, the albino hog will ensure your neighbors know who is #1.</li>
+       <li>The epitome of war machines, the armores Hogs show no mercy.Incredible durablity aided by armored plating means you can have a frontline force that is nigh inpenitrable, while providinga brute force attack that will devestae an enemy force.</li>
        <li>10 Feral Hogs - The Best Hog Company</li>
      </ul>
      <div class="color">
@@ -37,7 +37,7 @@
        <i class="color-black fa fa-check" aria-hidden="true"></i>
        <i class="color-white fa fa-check" aria-hidden="true"></i>
    </div>
-   <p class="price">$5000</p>
+   <p class="price">$2000</p>
      <p class="buy">Add To Cart</p>
   </div>
 </div>

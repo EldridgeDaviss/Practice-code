@@ -1,0 +1,77 @@
+.loader{ position: absolute; top: 50% !important; left: 30%; z-index: 100000;
+	-webkit-perspective:700px;
+	perspective: 700px; margin-top: 100px; 
+}
+
+.loader>span{
+	font-size: 130px;
+	font-family: "franklin gothic medium",sans-serif;
+	display: inline-block;
+	animation:flip 2.6s infinite linear;
+	transform-origin:0 70%;
+	transform-style:preserve-3d;
+	-webkit-transform-style:preserve-3d;
+}
+
+@keyframes flip{
+	35%{
+		transform: rotateX(360deg);
+	}
+	100%{
+		transform: rotatex(360deg);
+	}
+}
+
+
+.loader>span:nth-child(even){
+	color:white;
+
+}
+
+.loader>span:nth-child(2){
+	animation-delay: 0.3s;
+}
+
+.loader>span:nth-child(3){
+	animation-delay: 0.6s;
+}
+
+.loader>span:nth-child(4){
+	animation-delay: 0.9s;
+}
+
+.loader>span:nth-child(5){
+	animation-delay: 1.2s;
+}
+
+.loader>span:nth-child(6){
+	animation-delay: 1.5s
+}
+
+.loader>span:nth-child(7){
+	animation-delay: 1.8s
+}
+.loader>span:nth-child(8){
+	animation-delay: 2.1s
+}
+.loader>span:nth-child(9){
+	animation-delay: 2.3s
+}
+.loader>span:nth-child(10){
+	animation-delay: 2.7s
+}
+
+@keyframes my-animation{  
+  from {filter: opacity(100%);} 
+  to{filter: opacity(0%);} }
+
+  .loader-wrapper {animation-name: my-animation; animation-duration:4s; animation-direction:forwards;
+    animation-fill-mode: forwards;}
+
+    @keyframes my-animation2{  
+      from {filter: opacity(100%);} 
+      to{filter: opacity(0%);} }
+    
+      .backload {animation-name: my-animation2; animation-duration:6s; animation-direction:forwards;
+        animation-fill-mode: forwards; width: 150vw; height: 150vh; background-color:black ; position: absolute;
+	z-index: 999; pointer-events:none;}
