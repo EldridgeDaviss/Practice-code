@@ -77,13 +77,13 @@ else {
 <div class="col-md-5 justify-content-center card">
   <div class="card-body text-center">
     <h2 class="Justify-Content-Center" id="statement">We arent just a business. We're a movement.</h2>
-    <button  type="button" class="btn btn-warning causebutton">  Join the Cause.</button>
+    <a href="signup.php" class="btn btn-warning">Join the cause</a>
   </div>
 </div>
 <div class="card col-md-3">
   <img src="img/Hog photos/OIP(9).jpg" class="card-img-top" alt="...">
   <div class="card-body">
-    <p class="card-text" id="sales">Don't miss out!!  <button type="button" class="btn btn-warning">  20% off</button></p>
+    <p class="card-text" id="sales">Don't miss out!!  <a href="item7.php" class="btn btn-warning">20% off</a></p>
     
   </div>
 </div>
