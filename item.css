@@ -4,6 +4,10 @@ body {
   padding: 60px 20px;
 }
 
+
+
+.footerdown {bottom: 0% !important; margin: 0% !important;}
+ body{margin: 0% !important; padding: 0% !important;}
 .containers {
   margin: 0px auto 0px;
   background: #fff;
