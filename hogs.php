@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.css">
+    
     <link rel="stylesheet" href="hogs.css">
     <?php
     include 'includes/header.php';
@@ -31,7 +31,7 @@
 							Save The Environment
 						</h6>
 						<p>
-							We sell a variety of hogs, look throught them all and find a companion for life.
+							We sell a variety of hogs, look through them all and find a companion for life.
 							
 						</p>
 					</div>
@@ -200,6 +200,35 @@
       </button>
     </div>
   </section>
+
+<!-- Cart Button and Dropdown -->
+<div class="cart-container">
+  <div class="row"><button class="cart-btn" onclick="redirectToCheckout()">🛒 Cart</button>
+    <div class="cart-dropdown">
+        <div class="cart-item">
+            <span class="cart-item-name">Product 1</span>
+            <span class="cart-item-price">$10.00</span>
+        </div>
+        <div class="cart-item">
+            <span class="cart-item-name">Product 2</span>
+            <span class="cart-item-price">$15.00</span>
+        </div>
+        <div class="cart-item">
+            <span class="cart-item-name">Product 3</span>
+            <span class="cart-item-price">$20.00</span>
+        </div>
+        <a href="checkout.html" class="view-cart-btn">Go to Checkout</a>
+    </div></div>
+    
+</div>
+
+<!-- JavaScript to Handle Button Click -->
+<script>
+    function redirectToCheckout() {
+        window.location.href = "checkout.php"; // Update this URL to your actual checkout page
+    }
+</script>
+
 </main>
 
 <?php

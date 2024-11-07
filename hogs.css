@@ -346,3 +346,75 @@ img {
     gap: 3rem;
   }
 }
+
+
+ /* Cart Button Container */
+ .cart-container {
+  position: relative;
+  display: inline-block;
+}
+
+/* Cart Icon Button */
+.cart-btn {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  position: relative;
+}
+
+/* Cart Dropdown */
+.cart-dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  width: 250px;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  z-index: 1000;
+}
+
+/* Show Dropdown on Hover */
+.cart-container:hover .cart-dropdown {
+  display: block;
+}
+
+/* Cart Item Styling */
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.cart-item:last-child {
+  margin-bottom: 0;
+}
+
+.cart-item-name {
+  font-size: 16px;
+}
+
+.cart-item-price {
+  font-size: 14px;
+  color: #555;
+}
+
+/* View Cart Button */
+.view-cart-btn {
+  display: block;
+  text-align: center;
+  padding: 8px 0;
+  margin-top: 10px;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 16px;
+}

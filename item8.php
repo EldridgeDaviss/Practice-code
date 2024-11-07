@@ -29,7 +29,7 @@
      <h3 class="product">Armored Hog - Los Angeles</h3>
      <ul class="desc">
        <li>High Quality, FDA Approved Hogs</li>
-       <li>Hogs That Save The Environment</li>
+       <li>The epitome of a war machine, the armored Hogs show no mercy. Incredible durablity aided by armor plating means you have a frontline force that is nigh inpenitrable, while providing a brute force attack that will devestate your enemies.</li>
        <li>10 Feral Hogs - The Best Hog Company</li>
      </ul>
      <div class="color">
