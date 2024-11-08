@@ -10,13 +10,14 @@ body{height: 290vh;}
      position: absolute; opacity: 20%;}
 
 .blackspace{position:relative; 
-     width: 100%; background-color: #272d33; height: 30%; 
+     width: 100%; background-color: #272d33; height: 52%; 
    }
 
    .btext {color: white; font-size: 4vw; position: absolute; top: 55%; left: 38%; z-index: 2; }
  
 .parabtext {color: white; font-size: 2vw; position: absolute; top: 60%; left: 8%; z-index: 2;}
-
+.para2btext {color: white; font-size: 2vw; position: absolute; top: 70%; left: 8%; z-index: 2;}
+.para3btext {color: white; font-size: 2vw; position: absolute; top: 80%; left: 8%; z-index: 2;}
 .button {
     padding: 12px 24px;
     font-size: 16px;
@@ -28,7 +29,7 @@ body{height: 290vh;}
     cursor: pointer;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
-    top: 70%; left: 44%; z-index: 2; position: absolute;
+    top: 90%; left: 44%; z-index: 2; position: absolute;
     text-decoration: none !important;
   }
   
