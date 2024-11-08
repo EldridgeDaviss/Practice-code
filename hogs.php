@@ -192,7 +192,7 @@
       <div class="price">$5000</div>
     </div>
     <div class="btn">
-      <button class="buy-btn"><a href="item.php"> Buy Now </a> </button>
+      <button class="buy-btn"><a href="item1.php"> Buy Now </a> </button>
       <button class="fav">
         <svg class="svg" id="i-star" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
           <path d="M16 2 L20 12 30 12 22 19 25 30 16 23 7 30 10 19 2 12 12 12 Z" />
@@ -201,7 +201,11 @@
     </div>
   </section>
 
-<!-- Cart Button and Dropdown -->
+
+
+</main>
+<main>
+  <!-- Cart Button and Dropdown -->
 <div class="cart-container">
   <div class="row"><button class="cart-btn" onclick="redirectToCheckout()">🛒 Cart</button>
     <div class="cart-dropdown">
@@ -228,9 +232,7 @@
         window.location.href = "checkout.php"; // Update this URL to your actual checkout page
     }
 </script>
-
 </main>
-
 <?php
 include 'includes/footer.php'
 

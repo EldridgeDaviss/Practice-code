@@ -350,8 +350,9 @@ img {
 
  /* Cart Button Container */
  .cart-container {
-  position: relative;
+
   display: inline-block;
+  justify-content: center;
 }
 
 /* Cart Icon Button */
