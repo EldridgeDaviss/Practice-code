@@ -201,7 +201,11 @@
     </div>
   </section>
 
-<!-- Cart Button and Dropdown -->
+
+
+</main>
+<main>
+  <!-- Cart Button and Dropdown -->
 <div class="cart-container">
   <div class="row"><button class="cart-btn" onclick="redirectToCheckout()">🛒 Cart</button>
     <div class="cart-dropdown">
@@ -228,9 +232,7 @@
         window.location.href = "checkout.php"; // Update this URL to your actual checkout page
     }
 </script>
-
 </main>
-
 <?php
 include 'includes/footer.php'
 

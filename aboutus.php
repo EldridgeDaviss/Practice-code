@@ -36,11 +36,7 @@
 
 
 
-<<<<<<< HEAD
-<a href="hogs.php" class="button">Shop with us!</a>
-=======
                         <a href="hogs.php" class="shopw"> <button class="button">  Shop With Us!</button></a>
->>>>>>> bd8504949740d6e17bce3954aac699dc86d277b9
 
 <br>
 <?php
