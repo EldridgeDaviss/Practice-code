@@ -26,7 +26,7 @@
    </div>
    <div class="right col-md-6">
      <h4 class="categorie">Hog X10</h4>
-     <h3 class="product">Baby Hog - Los Angeles</h3>
+     <h3 class="product">Baby Hog - Des Moines</h3>
      <ul class="desc">
        <li>High Quality, FDA Approved Hogs</li>
        <li>These cute little hogs will surely grab the attention of your loved ones, serving as great pets and a good investment. After a few years they will have matured and be ready for whatever business you've suited them for.</li>

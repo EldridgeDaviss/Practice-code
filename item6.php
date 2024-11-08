@@ -26,7 +26,7 @@
    </div>
    <div class="right col-md-6">
      <h4 class="categorie">Hog X10</h4>
-     <h3 class="product">Mercenary Hog - Los Angeles</h3>
+     <h3 class="product">Mercenary Hog - Cincinnati</h3>
      <ul class="desc">
        <li>High Quality, FDA Approved Hogs</li>
        <li>The alternative to millitary hogs. Their discipline might be lacking, but their skill in both formal and informal combat should not be underestimated. They are a truely lethal force on the battlefield.</li>

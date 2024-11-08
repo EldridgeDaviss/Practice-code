@@ -26,7 +26,7 @@
    </div>
    <div class="right col-md-6">
      <h4 class="categorie">Hog X10</h4>
-     <h3 class="product">Military Hog - Los Angeles</h3>
+     <h3 class="product">Military Hog - Winston-Salem</h3>
      <ul class="desc">
        <li>High Quality, FDA Approved Hogs</li>
        <li>The alternative to mercenary Hogs, military hogs come with the finest discipline and versatility in the land. They will carry out any task or operation with the finest levels of efficiency and organization.</li>

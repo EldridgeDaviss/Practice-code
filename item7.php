@@ -26,7 +26,7 @@
    </div>
    <div class="right col-md-6">
      <h4 class="categorie">Hog X10</h4>
-     <h3 class="product">Police Hog - Los Angeles</h3>
+     <h3 class="product">Police Hog - Saint Paul</h3>
      <ul class="desc">
        <li>High Quality, FDA Approved Hogs</li>
        <li>Issues with crime and security? Problem solved with Police Hog. These highly trained swine will work day and night to protect and track down potential intruders and confirmed criminals.</li>

@@ -26,7 +26,7 @@
    </div>
    <div class="right col-md-6">
      <h4 class="categorie">Hog X10</h4>
-     <h3 class="product">Armored Hog - Los Angeles</h3>
+     <h3 class="product">Armored Hog - Minneapolis</h3>
      <ul class="desc">
        <li>High Quality, FDA Approved Hogs</li>
        <li>The epitome of a war machine, the armored Hogs show no mercy. Incredible durablity aided by armor plating means you have a frontline force that is nigh inpenitrable, while providing a brute force attack that will devestate your enemies.</li>
