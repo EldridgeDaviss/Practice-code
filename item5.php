@@ -26,7 +26,7 @@
    </div>
    <div class="right col-md-6">
      <h4 class="categorie">Hog X10</h4>
-     <h3 class="product">Chariot Hog - Los Angeles</h3>
+     <h3 class="product">Chariot Hog - Chimney Rock</h3>
      <ul class="desc">
        <li>High Quality, FDA Approved Hogs</li>
        <li>Gone are the days of high lithium gas guzzlers, now are the days of the chariot hog. An environmentally conscious alternative to both fossil fuel and electric vehicles, the Chariot Hog will get you to your destination with speed and efficiency. </li>

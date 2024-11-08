@@ -26,7 +26,7 @@
    </div>
    <div class="right col-md-6">
      <h4 class="categorie">Hog X10</h4>
-     <h3 class="product">Vacation Hog - Los Angeles</h3>
+     <h3 class="product">Vacation Hog - Davenport</h3>
      <ul class="desc">
        <li>High Quality, FDA Approved Hogs</li>
        <li>In need of some fun and relaxation? No worries, because the vaction hog is the master of both. These creatures are perfectly suited to participate and elevate your recreational experiences, and provide a calming face when looking for a time to rest.</li>

@@ -7,6 +7,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="signup.css">
     <?php
     include 'includes/header.php';
     ?>
@@ -19,7 +20,7 @@
 <!--Form for variable-->
 
 <main>
-<h1>Sign Up</h1>
+<h1 class="signtext">Sign Up</h1>
 <?php
 if (isset($_GET['error'])) {
     if($_GET['error'] == "emptyfields") {
@@ -42,15 +43,21 @@ echo '<p class="signuperror"> Fill in all fields!</p>';
     }
 }
 ?>
+<span class="signup">
 <form action="includes/signup.inc.php" method="post">
-    <input type="text" name="uid" placeholder="Username">
-    <input type="text" name="mail" placeholder="E-mail">
-    <input type="password" name="pwd" placeholder="Password">
-    <input type="password" name="pwd-repeat" placeholder="Repeat Password">
+    <input type="text" name="uid" placeholder="Username" class="userbox">
+    <input type="text" name="mail" placeholder="E-mail" class="mailbox">
+    <input type="password" name="pwd" placeholder="Password" class="passbox">
+    <input type="password" name="pwd-repeat" placeholder="Repeat Password"class="repbox">
     <button type="Submit" name="signup-submit">Signup</button>
 </form>
+</span>
 </main>
 
+<div class="darken"></div>
+<img src="img/Hog photos/forest.jpg" alt="" class="forestpic">
+<p class="covertext">Join us in our mission today. </p> 
+<p class="covertext2">Sign Up.</p>
    
 <?php
 include 'includes/footer.php'

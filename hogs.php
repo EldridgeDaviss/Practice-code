@@ -107,7 +107,7 @@
       <img src="img/Hog photos/OIP(7).jpg" alt="OFF-white Blue Edition" draggable="false" />
     </div>
     <div class="product-info">
-      <h2>10X Chariot Hog</h2>
+      <h2>X10 Chariot Hog</h2>
       <p>Buyer's Choice</p>
       <div class="price">$3000</div>
     </div>
