@@ -35,12 +35,12 @@
                         challenges into opportunities for positive change in the ecosystem." <br>  ---Eldridge Davis  </p> 
                         
                         
-<p class="para2btext">"There is no greater joy than that of the hero, and in all of our efforts we strive to not only <br>
+<p class="parab2text">"There is no greater joy than that of the hero, and in all of our efforts we strive to not only <br>
                       bask in that joy but bring it to our customers. 1O Feral Hogs is a family, forged by a desire<br>
                        for greatness through tranquility. Our product brings success, not only in attaining that goal, <br>
                         but also in being the better person."" <br>  ---Samuel Latham  </p> 
 
-<p class="para3btext">"Ever since I was a boy I've always wanted to work with animals, and to spread that love of animals <br>
+<p class="parab3text">"Ever since I was a boy I've always wanted to work with animals, and to spread that love of animals <br>
 to others.This is the core principal 10 Feral Hogs is based around. No animal is more more misunderstood than the common feral hog. We have put all our effort into changing<br>
                          the publics thoughts that these animals are pests, but instead intelligent creatures deserving of love.<br>
                         And we will not stop until we have succeceded at that goal."" <br>  ---Mason Blankenship  </p> 
