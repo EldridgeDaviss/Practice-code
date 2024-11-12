@@ -65,7 +65,7 @@
                     </h2>
                     <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                            When you makke a purchase from 10 Feral Hogs, you are supporting an industry dedicated to improving the world. Gone are the days of industrial destruction of our environment. We uphold traditional capitalist values and support the boon of free trade, but the environment is our first priority. Your purchase will help renew the lives of these once dangerous animals with a sense of purpose healthy for them and humanity.
+                            When you make a purchase from 10 Feral Hogs, you are supporting an industry dedicated to improving the world. Gone are the days of industrial destruction of our environment. We uphold traditional capitalist values and support the boon of free trade, but the environment is our first priority. Your purchase will help renew the lives of these once dangerous animals with a sense of purpose healthy for them and humanity.
                         </div>
                     </div>
                 </div>
