@@ -29,11 +29,11 @@
 <div class="blackspace"></div>
 
 <p class="btext">Who We Are</p>
+
 <p class="parabtext">"At 10 Feral Hogs, our mission is to humanely transform wild hogs into well-adjusted animals <br>
                       through compassionate training, sustainable practices, and dedication to harmonious coexistence. <br>
                        We believe in bridging the gap between the wild and domestic worlds, turning <br>
-                        challenges into opportunities for positive change in the ecosystem." <br>  ---Eldridge Davis  </p> 
-                        
+                        challenges into opportunities for positive change in the ecosystem." <br>  ---Eldridge Davis  </p>                        
                         
 <p class="parab2text">"There is no greater joy than that of the hero, and in all of our efforts we strive to not only <br>
                       bask in that joy but bring it to our customers. 1O Feral Hogs is a family, forged by a desire<br>
