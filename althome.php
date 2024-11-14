@@ -16,65 +16,7 @@
    <br>
     <title>Home</title>
     
-    <style>
-        body {
-            cursor: url('images/custom-cursor.png'), auto;
-        }
-    </style>
-</head>
-<body>
-
- <!--Loader-->
-  
-  
- <div class="loader-wrapper">
-      <!--Animation-->
-        <div class="loader ">
-	
-        
-    </div>
-  </div>
-       <div  class="backload"></div>
- <div class=cursor>
-
-
- 
-<!--Form for variable-->
-
-<main>
-<?php 
- if (isset($_SESSION['userId'])) {
-echo'<p class="login-status">You Are Hogged in!</p>';
- }
-else {
-    echo'<p class="login-status">You Are Hogged out!</p>';
-}
-?>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- <section data-description="bold/cursive">
-	<div class="wrapper">
-	 <h1 class="beta uppercase montserrat regular line-after-heading">
-		This shouldn't be so difficult 
-		</h1>
-		<p class="delta cardo regular italic">
-		Wow, what a fine cofee flavor
-		</p>
-	 </div>
- </section>
+    
 
 
 
