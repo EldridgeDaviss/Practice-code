@@ -16,221 +16,99 @@
 </head>
 <body>
 
-<p class="sellerp">Summer Hog Collection</p>
-
-<div class="c-heroImageGrid">
-	<div class="container">
-		<div class="column"></div>
-		<div class="column">
-			<div class="row"></div>
-			<div class="row">
-				<div>
-					<div class="text">
-						<h6>
-							Find A Hog.<br>
-							Save The Environment
-						</h6>
-						<p>
-							We sell a variety of hogs, look through them all and find a companion for life.
-							
-						</p>
-					</div>
-				</div>
-				<div></div>
-			</div>
-			<div class="row"></div>
-		</div>
-	</div>
-</div>
-
-
-<main class="container">
-  <section class="card">
-    <div class="product-image">
-      <img src="img/Hog photos/OIP(5).jpg" alt="OFF-white Red Edition" draggable="false" />
-    </div>
-    <div class="product-info">
-      <h2>X10 Baby Hogs</h2>
-      <p>Best Seller</p>
-      <div class="price">$2000 </div>
-    </div>
-    <div class="btn">
-      <button class="buy-btn"><a href="item2.php">Buy Now</a></button>
-      <button class="fav">
-        <svg class="svg" id="i-star" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-          <path d="M16 2 L20 12 30 12 22 19 25 30 16 23 7 30 10 19 2 12 12 12 Z" />
-        </svg>
-      </button>
-    </div>
-  </section>
-  <section class="card card-blue">
-    <div class="product-image">
-      <img src="img/Hog photos/OIP(4).jpg" alt="OFF-white Blue Edition" draggable="false" />
-    </div>
-    <div class="product-info">
-      <h2>X10 Vacation Hogs</h2>
-      <p>Best Seller</p>
-      <div class="price">$1000</div>
-    </div>
-    <div class="btn">
-      <button class="buy-btn"><a href="item3.php">Buy Now </a></button>
-      <button class="fav">
-        <svg class="svg" id="i-star" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-          <path d="M16 2 L20 12 30 12 22 19 25 30 16 23 7 30 10 19 2 12 12 12 Z" />
-        </svg>
-      </button>
-    </div>
-  </section>
-</main>
-
-<main class="container">
-  <section class="card">
-    <div class="product-image">
-      <img src="img/Hog photos/OIP(6).jpg" alt="OFF-white Red Edition" draggable="false" />
-    </div>
-    <div class="product-info">
-      <h2>X10 Military Hog</h2>
-      <p>Buyer's Choice</p>
-      <div class="price">$1500</div>
-    </div>
-    <div class="btn">
-      <button class="buy-btn"><a href="item4.php">Buy Now </a></button>
-      <button class="fav">
-        <svg class="svg" id="i-star" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-          <path d="M16 2 L20 12 30 12 22 19 25 30 16 23 7 30 10 19 2 12 12 12 Z" />
-        </svg>
-      </button>
-    </div>
-  </section>
-  <section class="card card-blue">
-    <div class="product-image">
-      <img src="img/Hog photos/OIP(7).jpg" alt="OFF-white Blue Edition" draggable="false" />
-    </div>
-    <div class="product-info">
-      <h2>X10 Chariot Hog</h2>
-      <p>Buyer's Choice</p>
-      <div class="price">$3000</div>
-    </div>
-    <div class="btn">
-      <button class="buy-btn"><a href="item5.php">Buy Now </a></button>
-      <button class="fav">
-        <svg class="svg" id="i-star" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-          <path d="M16 2 L20 12 30 12 22 19 25 30 16 23 7 30 10 19 2 12 12 12 Z" />
-        </svg>
-      </button>
-    </div>
-  </section>
-</main>
 
 
 
 <main class="container">
-  <section class="card">
-    <div class="product-image">
-      <img src="img/Hog photos/OIP(8).jpg" alt="OFF-white Red Edition" draggable="false" />
-    </div>
-    <div class="product-info">
-      <h2>X10 Mercenary Hog</h2>
-      <p>Buyer's Choice</p>
-      <div class="price">$1100</div>
-    </div>
-    <div class="btn">
-      <button class="buy-btn"><a href="item6.php">Buy Now </a></button>
-      <button class="fav">
-        <svg class="svg" id="i-star" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-          <path d="M16 2 L20 12 30 12 22 19 25 30 16 23 7 30 10 19 2 12 12 12 Z" />
-        </svg>
-      </button>
-    </div>
-  </section>
-  <section class="card card-blue">
-    <div class="product-image">
-      <img src="img/Hog photos/OIP(9).jpg" alt="OFF-white Blue Edition" draggable="false" />
-    </div>
-    <div class="product-info">
-      <h2>X10 Police Hog</h2>
-      <p>Buyer's Choice</p>
-      <div class="price">$1200</div>
-    </div>
-    <div class="btn">
-      <button class="buy-btn"><a href="item7.php">Buy Now </a></button>
-      <button class="fav">
-        <svg class="svg" id="i-star" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-          <path d="M16 2 L20 12 30 12 22 19 25 30 16 23 7 30 10 19 2 12 12 12 Z" />
-        </svg>
-      </button>
-    </div>
-  </section>
-</main>
+    <?php
+    // Include database connection
+    include('includes/dbh.inc.php');
 
-<main class="container">
-  <section class="card">
-    <div class="product-image">
-      <img src="img/Hog photos/OIP(10).jpg" alt="OFF-white Red Edition" draggable="false" />
-    </div>
-    <div class="product-info">
-      <h2>X10 Armored Hog</h2>
-      <p>Buyer's Choice</p>
-      <div class="price">$2000</div>
-    </div>
-    <div class="btn">
-      <button class="buy-btn"><a href="item8.php">Buy Now </a></button>
-      <button class="fav">
-        <svg class="svg" id="i-star" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-          <path d="M16 2 L20 12 30 12 22 19 25 30 16 23 7 30 10 19 2 12 12 12 Z" />
-        </svg>
-      </button>
-    </div>
-  </section>
-  <section class="card card-blue">
-    <div class="product-image">
-      <img src="img/Hog photos/OIP(11).jpg" alt="OFF-white Blue Edition" draggable="false" />
-    </div>
-    <div class="product-info">
-      <h2>X10 Albino Hog</h2>
-      <p>Buyer's Choice</p>
-      <div class="price">$5000</div>
-    </div>
-    <div class="btn">
-      <button class="buy-btn"><a href="item1.php"> Buy Now </a> </button>
-      <button class="fav">
-        <svg class="svg" id="i-star" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-          <path d="M16 2 L20 12 30 12 22 19 25 30 16 23 7 30 10 19 2 12 12 12 Z" />
-        </svg>
-      </button>
-    </div>
-  </section>
+    // Fetch products from the database
+    $sql = "SELECT * FROM hogs";
+    $result = $conn->query($sql);
 
+    if ($result->num_rows > 0) {
+        while($row = $result->fetch_assoc()) {
+            // Extract product data
+            $name = $row['name'];
+            $description = $row['description'];
+            $price = $row['price'];
+            $image = $row['image'];
+            $link = $row['link'];
+            $stock = $row['stock'];
+            $color = $row['color'];
+            $age = $row['age'];
+            $trainer_name = $row['trainer_name'];
+            $behavior = $row['behavior'];
+    ?>
+            <!-- Product card -->
+            <section class="card">
+                <div class="product-image">
+                    <img src="<?php echo $image; ?>" alt="<?php echo $name; ?>" />
+                </div>
+                <div class="product-info">
+                    <h2><?php echo $name; ?></h2>
+                    <p><strong>Description:</strong> <?php echo $description; ?></p>
+                    <p><strong>Price:</strong> <?php echo $price; ?></p>
+                    <p><strong>Stock:</strong> <?php echo $stock; ?></p>
+                    <p><strong>Color:</strong> <?php echo $color; ?></p>
+                    <p><strong>Age:</strong> <?php echo $age; ?> years</p>
+                    <p><strong>Trainer:</strong> <?php echo $trainer_name; ?></p>
+                    <p><strong>Behavior:</strong> <?php echo $behavior; ?></p>
+                </div>
+                <div class="btn">
+                <!-- If stock is 0, disable the button -->
+                <?php if ($stock > 0): ?>
+                    <form action="includes/buy.php" method="POST">
+                        <input type="hidden" name="product_id" value="<?php echo $row['id']; ?>">
+                        <button class="buy-btn">Buy Now</button>
+                    </form>
+                <?php else: ?>
+                    <button class="buy-btn" disabled>Out of Stock</button>
+                <?php endif; ?>
+            </div>
+            </section>
+    <?php
+        }
+    } else {
+        echo "No products found.";
+    }
 
-
-</main>
+    // Close the connection
+    $conn->close();
+    ?>
 <main>
   <!-- Cart Button and Dropdown -->
-<div class="cart-container">
-  <div class="row"><button class="cart-btn" onclick="redirectToCheckout()">🛒 Cart</button>
-    <div class="cart-dropdown">
-        <div class="cart-item">
-            <span class="cart-item-name">Product 1</span>
-            <span class="cart-item-price">$10.00</span>
-        </div>
-        <div class="cart-item">
-            <span class="cart-item-name">Product 2</span>
-            <span class="cart-item-price">$15.00</span>
-        </div>
-        <div class="cart-item">
-            <span class="cart-item-name">Product 3</span>
-            <span class="cart-item-price">$20.00</span>
-        </div>
-        <a href="checkout.html" class="view-cart-btn">Go to Checkout</a>
-    </div></div>
-    
+  <div class="cart-container">
+  <div class="row">
+    <button class="cart-btn" onclick="toggleCartDropdown()">🛒 Cart</button>
+    <div class="cart-dropdown" id="cartDropdown">
+      <button class="close-btn" onclick="toggleCartDropdown()">✖</button>
+      <div class="cart-item">
+        <span class="cart-item-name">Product 1</span>
+        <span class="cart-item-price">$10.00</span>
+      </div>
+      <div class="cart-item">
+        <span class="cart-item-name">Product 2</span>
+        <span class="cart-item-price">$15.00</span>
+      </div>
+      <div class="cart-item">
+        <span class="cart-item-name">Product 3</span>
+        <span class="cart-item-price">$20.00</span>
+      </div>
+      <a href="checkout.php" class="view-cart-btn">Go to Checkout</a>
+    </div>
+  </div>
 </div>
 
 <!-- JavaScript to Handle Button Click -->
 <script>
-    function redirectToCheckout() {
-        window.location.href = "checkout.php"; // Update this URL to your actual checkout page
-    }
+    function toggleCartDropdown() {
+  const dropdown = document.getElementById('cartDropdown');
+  dropdown.style.display = dropdown.style.display === 'block' ? 'none' : 'block';
+}
+
 </script>
 </main>
 <?php
