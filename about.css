@@ -9,28 +9,42 @@ body{height: 290vh;}
 .acover {width: 100%; background-color: #192027 ; height: 49% ; top: 0%;
      position: absolute; opacity: 20%;}
 
-.blackspace{position:relative; 
-     width: 100%; background-color: #272d33; height: 52%; 
-   }
-
-   .btext {color: white; font-size: 4vw; position: absolute; top: 55%; left: 38%; z-index: 2; }
- 
-.parabtext {color: white; font-size: 2vw; position: absolute; top: 60%; left: 8%; z-index: 2;}
-.para2btext {color: white; font-size: 2vw; position: absolute; top: 70%; left: 8%; z-index: 2;}
-.para3btext {color: white; font-size: 2vw; position: absolute; top: 80%; left: 8%; z-index: 2;}
-.button {
-    padding: 12px 24px;
-    font-size: 16px;
-    font-weight: 600;
-    color: #ffffff !important;
-    background-color: #f78317;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: all 0.3s ease;
-    top: 90%; left: 44%; z-index: 2; position: absolute;
-    text-decoration: none !important;
+     .blackspace {
+      position: relative;
+      width: 100%;
+      background-color: #272d33;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      color: white;
+  }
+  
+  .btext {
+      font-size: 4vw;
+      margin-bottom: 20px;
+      text-align: center;
+      width: 100%;
+  }
+  
+  .parabtext, .para2btext, .para3btext {
+      font-size: 2vw;
+      margin-bottom: 20px;
+  }
+  
+  .button {
+      padding: 12px 24px;
+      font-size: 16px;
+      font-weight: 600;
+      color: #ffffff !important;
+      background-color: #f78317;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      transition: all 0.3s ease;
+      text-decoration: none !important;
+      align-self: center;
   }
   
   .button:hover {
