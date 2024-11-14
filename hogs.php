@@ -206,31 +206,35 @@
 </main>
 <main>
   <!-- Cart Button and Dropdown -->
-<div class="cart-container">
-  <div class="row"><button class="cart-btn" onclick="redirectToCheckout()">🛒 Cart</button>
-    <div class="cart-dropdown">
-        <div class="cart-item">
-            <span class="cart-item-name">Product 1</span>
-            <span class="cart-item-price">$10.00</span>
-        </div>
-        <div class="cart-item">
-            <span class="cart-item-name">Product 2</span>
-            <span class="cart-item-price">$15.00</span>
-        </div>
-        <div class="cart-item">
-            <span class="cart-item-name">Product 3</span>
-            <span class="cart-item-price">$20.00</span>
-        </div>
-        <a href="checkout.html" class="view-cart-btn">Go to Checkout</a>
-    </div></div>
-    
+  <div class="cart-container">
+  <div class="row">
+    <button class="cart-btn" onclick="toggleCartDropdown()">🛒 Cart</button>
+    <div class="cart-dropdown" id="cartDropdown">
+      <button class="close-btn" onclick="toggleCartDropdown()">✖</button>
+      <div class="cart-item">
+        <span class="cart-item-name">Product 1</span>
+        <span class="cart-item-price">$10.00</span>
+      </div>
+      <div class="cart-item">
+        <span class="cart-item-name">Product 2</span>
+        <span class="cart-item-price">$15.00</span>
+      </div>
+      <div class="cart-item">
+        <span class="cart-item-name">Product 3</span>
+        <span class="cart-item-price">$20.00</span>
+      </div>
+      <a href="checkout.php" class="view-cart-btn">Go to Checkout</a>
+    </div>
+  </div>
 </div>
 
 <!-- JavaScript to Handle Button Click -->
 <script>
-    function redirectToCheckout() {
-        window.location.href = "checkout.php"; // Update this URL to your actual checkout page
-    }
+    function toggleCartDropdown() {
+  const dropdown = document.getElementById('cartDropdown');
+  dropdown.style.display = dropdown.style.display === 'block' ? 'none' : 'block';
+}
+
 </script>
 </main>
 <?php
