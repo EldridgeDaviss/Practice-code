@@ -12,7 +12,7 @@
               <div class="widget-about">
                
                 <h4 class="footer-widget-title">Description & Company Background</h4>
-                <p>We strive to bring a revolution of fearal Hogs to the forefront of American style and class.</p>
+                <p>We strive to bring a revolution of feral Hogs to the forefront of American style and class.</p>
                 <ul class="contact-details">
                   <li>
                     <span class="icon-earphones"></span> Call Us:
