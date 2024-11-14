@@ -19,90 +19,65 @@
 
 
 
-<?php
-$products = [
-    [
-        'name' => 'X10 Baby Hogs',
-        'description' => 'Best Seller',
-        'price' => '$2000',
-        'image' => 'img/Hog photos/OIP(5).jpg',
-        'link' => 'item2.php'
-    ],
-    [
-        'name' => 'X10 Vacation Hogs',
-        'description' => 'Best Seller',
-        'price' => '$1000',
-        'image' => 'img/Hog photos/OIP(4).jpg',
-        'link' => 'item3.php'
-    ],
-    [
-        'name' => 'X10 Military Hog',
-        'description' => 'Buyer\'s Choice',
-        'price' => '$1500',
-        'image' => 'img/Hog photos/OIP(6).jpg',
-        'link' => 'item4.php'
-    ],
-    [
-        'name' => 'X10 Chariot Hog',
-        'description' => 'Buyer\'s Choice',
-        'price' => '$3000',
-        'image' => 'img/Hog photos/OIP(7).jpg',
-        'link' => 'item5.php'
-    ],
-    [
-        'name' => 'X10 Mercenary Hog',
-        'description' => 'Buyer\'s Choice',
-        'price' => '$1100',
-        'image' => 'img/Hog photos/OIP(8).jpg',
-        'link' => 'item6.php'
-    ],
-    [
-        'name' => 'X10 Police Hog',
-        'description' => 'Buyer\'s Choice',
-        'price' => '$1200',
-        'image' => 'img/Hog photos/OIP(9).jpg',
-        'link' => 'item7.php'
-    ],
-    [
-        'name' => 'X10 Armored Hog',
-        'description' => 'Buyer\'s Choice',
-        'price' => '$2000',
-        'image' => 'img/Hog photos/OIP(10).jpg',
-        'link' => 'item8.php'
-    ],
-    [
-        'name' => 'X10 Albino Hog',
-        'description' => 'Buyer\'s Choice',
-        'price' => '$5000',
-        'image' => 'img/Hog photos/OIP(11).jpg',
-        'link' => 'item1.php'
-    ]
-];
-
-?>
-
 <main class="container">
-    <?php foreach ($products as $index => $product): ?>
-        <section class="card <?php echo $index % 2 == 1 ? 'card-blue' : ''; ?>">
-            <div class="product-image">
-                <img src="<?php echo $product['image']; ?>" alt="<?php echo $product['name']; ?>" draggable="false" />
+    <?php
+    // Include database connection
+    include('includes/dbh.inc.php');
+
+    // Fetch products from the database
+    $sql = "SELECT * FROM hogs";
+    $result = $conn->query($sql);
+
+    if ($result->num_rows > 0) {
+        while($row = $result->fetch_assoc()) {
+            // Extract product data
+            $name = $row['name'];
+            $description = $row['description'];
+            $price = $row['price'];
+            $image = $row['image'];
+            $link = $row['link'];
+            $stock = $row['stock'];
+            $color = $row['color'];
+            $age = $row['age'];
+            $trainer_name = $row['trainer_name'];
+            $behavior = $row['behavior'];
+    ?>
+            <!-- Product card -->
+            <section class="card">
+                <div class="product-image">
+                    <img src="<?php echo $image; ?>" alt="<?php echo $name; ?>" />
+                </div>
+                <div class="product-info">
+                    <h2><?php echo $name; ?></h2>
+                    <p><strong>Description:</strong> <?php echo $description; ?></p>
+                    <p><strong>Price:</strong> <?php echo $price; ?></p>
+                    <p><strong>Stock:</strong> <?php echo $stock; ?></p>
+                    <p><strong>Color:</strong> <?php echo $color; ?></p>
+                    <p><strong>Age:</strong> <?php echo $age; ?> years</p>
+                    <p><strong>Trainer:</strong> <?php echo $trainer_name; ?></p>
+                    <p><strong>Behavior:</strong> <?php echo $behavior; ?></p>
+                </div>
+                <div class="btn">
+                <!-- If stock is 0, disable the button -->
+                <?php if ($stock > 0): ?>
+                    <form action="includes/buy.php" method="POST">
+                        <input type="hidden" name="product_id" value="<?php echo $row['id']; ?>">
+                        <button class="buy-btn">Buy Now</button>
+                    </form>
+                <?php else: ?>
+                    <button class="buy-btn" disabled>Out of Stock</button>
+                <?php endif; ?>
             </div>
-            <div class="product-info">
-                <h2><?php echo $product['name']; ?></h2>
-                <p><?php echo $product['description']; ?></p>
-                <div class="price"><?php echo $product['price']; ?></div>
-            </div>
-            <div class="btn">
-                <button class="buy-btn"><a href="<?php echo $product['link']; ?>">Buy Now</a></button>
-                <button class="fav">
-                    <svg class="svg" id="i-star" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-                        <path d="M16 2 L20 12 30 12 22 19 25 30 16 23 7 30 10 19 2 12 12 12 Z" />
-                    </svg>
-                </button>
-            </div>
-        </section>
-    <?php endforeach; ?>
-</main>
+            </section>
+    <?php
+        }
+    } else {
+        echo "No products found.";
+    }
+
+    // Close the connection
+    $conn->close();
+    ?>
 <main>
   <!-- Cart Button and Dropdown -->
   <div class="cart-container">
