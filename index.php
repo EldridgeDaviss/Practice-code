@@ -200,7 +200,7 @@
                   <div class="row">
                      <div class="col-md-4">
                         <div class="container_main">
-                           <img src="images/img-7.png" alt="Avatar" class="image">
+                           <img src="img/Hog photos/OIP(13).png" alt="Avatar" class="image">
                            <div class="overlay">
                               <div class="text"><a href="hogs.php"><i class="fa fa-search" aria-hidden="true"></i></a></div>
                            </div>
@@ -208,7 +208,7 @@
                      </div>
                      <div class="col-md-4">
                         <div class="container_main">
-                           <img src="images/img-8.png" alt="Avatar" class="image">
+                           <img src="img/Hog photos/OIP(14).png" alt="Avatar" class="image">
                            <div class="overlay">
                               <div class="text"><a href="hogs.php"><i class="fa fa-search" aria-hidden="true"></i></a></div>
                            </div>
@@ -216,7 +216,7 @@
                      </div>
                      <div class="col-md-4">
                         <div class="container_main">
-                           <img src="images/img-9.png" alt="Avatar" class="image">
+                           <img src="img/Hog photos/OIP(15).png" alt="Avatar" class="image">
                            <div class="overlay">
                               <div class="text"><a href="hogs.php"><i class="fa fa-search" aria-hidden="true"></i></a></div>
                            </div>
