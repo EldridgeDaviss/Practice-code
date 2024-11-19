@@ -9,7 +9,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <meta name="viewport" content="initial-scale=1, maximum-scale=1">
       <!-- site metas -->
-      <title>Grand Coffee</title>
+      <title>10 Feral Hogs - Home</title>
       <meta name="keywords" content="">
       <meta name="description" content="">
       <meta name="author" content="">
@@ -29,6 +29,13 @@
       <link rel="stylesheet" href="css/owl.carousel.min.css">
       <link rel="stylesheet" href="css/owl.theme.default.min.css">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+
+
+      <style>
+        body {
+            cursor: url('images/custom-cursor.png'), auto;
+        }
+    </style>
    </head>
    <body>
 
@@ -57,10 +64,10 @@
                      <div class="row">
                         <div class="col-sm-12">
                            <div class="banner_taital">
-                              <h1 class="outstanding_text">Outstanding</h1>
-                              <h1 class="coffee_text">Coffee Shop</h1>
-                              <p class="there_text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, </p>
-                              <div class="learnmore_bt"><a href="#">Learn More</a></div>
+                              <h1 class="outstanding_text">10</h1>
+                              <h1 class="coffee_text">Feral Hogs</h1>
+                              <p class="there_text">Find a new companion for the next stage of your life, we're not just a company, but a movement. We sell hogs so you dont need dogs and to help the environment. </p>
+                              <div class="learnmore_bt"><a href="Hoglore.php">Learn More</a></div>
                            </div>
                         </div>
                      </div>
@@ -69,10 +76,10 @@
                      <div class="row">
                         <div class="col-sm-12">
                            <div class="banner_taital">
-                              <h1 class="outstanding_text">Outstanding </h1>
-                              <h1 class="coffee_text">Coffee Shop</h1>
-                              <p class="there_text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, </p>
-                              <div class="learnmore_bt"><a href="#">Learn More</a></div>
+                              <h1 class="outstanding_text">Hogs </h1>
+                              <h1 class="coffee_text">For Days</h1>
+                              <p class="there_text">Find a new companion for the next stage of your life, we're not just a company, but a movement. We sell hogs so you dont need dogs and to help the environment.  </p>
+                              <div class="learnmore_bt"><a href="Hoglore.php">Learn More</a></div>
                            </div>
                         </div>
                      </div>
@@ -81,10 +88,10 @@
                      <div class="row">
                         <div class="col-sm-12">
                            <div class="banner_taital">
-                              <h1 class="outstanding_text">Outstanding </h1>
-                              <h1 class="coffee_text">Coffee Shop</h1>
-                              <p class="there_text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, </p>
-                              <div class="learnmore_bt"><a href="#">Learn More</a></div>
+                              <h1 class="outstanding_text">Save </h1>
+                              <h1 class="coffee_text">The Environment</h1>
+                              <p class="there_text">Find a new companion for the next stage of your life, we're not just a company, but a movement. We sell hogs so you dont need dogs and to help the environment. </p>
+                              <div class="learnmore_bt"><a href="Hoglore.php">Learn More</a></div>
                            </div>
                         </div>
                      </div>
@@ -107,13 +114,13 @@
                <div class="col-md-6">
                   <div class="about_taital_main">
                      <div class="about_taital">About Us</div>
-                     <p class="about_text">Full cleaning and housekeeping services for companies and households.</p>
-                     <p class="about_text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.Lorem Ipsum is simply</p>
-                     <div class="read_bt"><a href="#">Read More</a></div>
+                     <p class="about_text">Why don't you take the time to learn about our product.</p>
+                     <p class="about_text">We specialize in providing hogs for every unique need. Whether you're looking for chariot hogs for traditional showcases, vacation hogs for a delightful getaway experience, or police hogs trained for security and patrol, we have you covered. With a commitment to quality, care, and innovation, we are your trusted partner in finding the perfect hog for any occasion.</p>
+                     <div class="read_bt"><a href="aboutus.php">Read More</a></div>
                   </div>
                </div>
                <div class="col-md-6">
-                  <div class="about_img"><img src="images/about-img.png"></div>
+                  <div class="about_img"><img src="img/Hog photos/OIP(12).jpg" width="500px"></div>
                </div>
             </div>
          </div>
@@ -125,7 +132,7 @@
             <div class="row">
                <div class="col-sm-12">
                   <h1 class="gallery_taital">Our Gallery</h1>
-                  <p class="gallery_text">Lorem Ipsum is simply dummy text of printing typesetting ststry lorem Ipsum the industry'ndard dummy text ever since of the 1500s, when an unknown printer took a galley of type and scra make a type specimen book. It has</p>
+                  <p class="gallery_text">We sell a wide variety of hogs. Why dont you take a look and see if there are any you like. Explore our selection of premium hogs, raised with care to meet the highest standards. From robust breeding stock to healthy market-ready hogs, our gallery showcases the quality and diversity of our herd.</p>
                </div>
             </div>
             <div class="">
@@ -133,7 +140,7 @@
                   <div class="row">
                      <div class="col-md-4">
                         <div class="container_main">
-                           <img src="images/img-1.png" alt="Avatar" class="image">
+                           <img src="img/Hog photos/OIP(6).jpg" alt="Avatar" class="image">
                            <div class="overlay">
                               <div class="text"><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></div>
                            </div>
@@ -141,7 +148,7 @@
                      </div>
                      <div class="col-md-4">
                         <div class="container_main">
-                           <img src="images/img-2.png" alt="Avatar" class="image">
+                           <img src="img/Hog photos/OIP(7).jpg" alt="Avatar" class="image">
                            <div class="overlay">
                               <div class="text"><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></div>
                            </div>
@@ -149,7 +156,7 @@
                      </div>
                      <div class="col-md-4">
                         <div class="container_main">
-                           <img src="images/img-3.png" alt="Avatar" class="image">
+                           <img src="img/Hog photos/OIP(8).jpg" alt="Avatar" class="image">
                            <div class="overlay">
                               <div class="text"><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></div>
                            </div>
@@ -161,7 +168,7 @@
                   <div class="row">
                      <div class="col-md-4">
                         <div class="container_main">
-                           <img src="images/img-4.png" alt="Avatar" class="image">
+                           <img src="img/Hog photos/OIP(9).jpg" alt="Avatar" class="image">
                            <div class="overlay">
                               <div class="text"><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></div>
                            </div>
@@ -169,7 +176,7 @@
                      </div>
                      <div class="col-md-4">
                         <div class="container_main">
-                           <img src="images/img-5.png" alt="Avatar" class="image">
+                           <img src="img/Hog photos/OIP(10).jpg" alt="Avatar" class="image">
                            <div class="overlay">
                               <div class="overlay">
                                  <div class="text"><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></div>
@@ -179,7 +186,7 @@
                      </div>
                      <div class="col-md-4">
                         <div class="container_main">
-                           <img src="images/img-6.png" alt="Avatar" class="image">
+                           <img src="img/Hog photos/OIP(11).jpg" alt="Avatar" class="image">
                            <div class="overlay">
                               <div class="overlay">
                                  <div class="text"><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></div>
@@ -218,7 +225,7 @@
                   </div>
                </div>
             </div>
-            <div class="seemore_bt"><a href="#">See More</a></div>
+            <div class="seemore_bt"><a href="hogs.php">See More</a></div>
          </div>
       </div>
       <!-- gallery section end -->
@@ -228,7 +235,7 @@
             <div class="row">
                <div class="col-sm-12">
                   <h1 class="services_taital">Services</h1>
-                  <p class="services_text">Typesetting industry lorem Ipsum is simply dummy text of the </p>
+                  <p class="services_text">Check out the variety of services we provide!</p>
                </div>
             </div>
             <div class="services_section_2">
@@ -239,9 +246,9 @@
                            <img src="images/icon1.png" class="image_1">
                            <img src="images/icon1.png" class="image_2">
                         </div>
-                        <h3 class="decorate_text">Original Coffee</h3>
-                        <p class="tation_text">Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea </p>
-                        <div class="readmore_bt"><a href="#">Read More</a></div>
+                        <h3 class="decorate_text">Selling Hogs</h3>
+                        <p class="tation_text"> Our expertly trained hogs are sold in batches of ten, ensuring quality and consistency for every purpose.</p>
+                        <div class="readmore_bt"><a href="Hoglore.php">Read More</a></div>
                      </div>
                   </div>
                   <div class="col-lg-4 col-sm-12 col-md-4">
@@ -250,9 +257,9 @@
                            <img src="images/icon2.png" class="image_1">
                            <img src="images/icon2.png" class="image_2">
                         </div>
-                        <h3 class="decorate_text">20 Coffee Flavors</h3>
-                        <p class="tation_text">Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea </p>
-                        <div class="readmore_bt"><a href="#">Read More</a></div>
+                        <h3 class="decorate_text">Training Hogs</h3>
+                        <p class="tation_text">At 10 Feral Hogs, we specialize in training hogs to excel in unique roles, from vacation companions to law enforcement partners.</p>
+                        <div class="readmore_bt"><a href="Hoglore.php">Read More</a></div>
                      </div>
                   </div>
                   <div class="col-lg-4 col-sm-12 col-md-4">
@@ -261,9 +268,9 @@
                            <img src="images/icon3.png" class="image_1">
                            <img src="images/icon3.png" class="image_2">
                         </div>
-                        <h3 class="decorate_text">Pleasant Abient</h3>
-                        <p class="tation_text">Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea </p>
-                        <div class="readmore_bt"><a href="#">Read More</a></div>
+                        <h3 class="decorate_text">Feral Hog Collection</h3>
+                        <p class="tation_text">We carefully collect wild feral hogs and transform them into well-trained, versatile animals ready to meet our customers’ needs.</p>
+                        <div class="readmore_bt"><a href="Hoglore.php">Read More</a></div>
                      </div>
                   </div>
                </div>
@@ -294,8 +301,8 @@
                    <div class="row">
                       <div class="col-md-12">
                          <div class="testimonial_section_2">
-                            <h4 class="client_name_text">Monila <span class="quick_icon"><img src="images/quick-icon.png"></span></h4>
-                            <p class="customer_text">many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All themany variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some embarrassing hidden in the middle of text. All the</p>
+                            <h4 class="client_name_text">Louis S. (Resort Owner) <span class="quick_icon"><img src="images/quick-icon.png"></span></h4>
+                            <p class="customer_text">"We recently purchased a batch of vacation hogs from 10 Feral Hogs, and they were an absolute delight! Each hog was healthy, well-behaved, and added so much charm to our countryside retreat. The team made the whole process seamless, and our guests couldn’t stop talking about how unique the experience was. Highly recommend!"</p>
                          </div>
                       </div>
                    </div>
@@ -308,8 +315,8 @@
                    <div class="row">
                       <div class="col-md-12">
                          <div class="testimonial_section_2">
-                            <h4 class="client_name_text">Monila <span class="quick_icon"><img src="images/quick-icon.png"></span></h4>
-                            <p class="customer_text">many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All themany variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some embarrassing hidden in the middle of text. All the</p>
+                            <h4 class="client_name_text">Marco A. (Event Organizer) <span class="quick_icon"><img src="images/quick-icon.png"></span></h4>
+                            <p class="customer_text">"I needed dependable chariot hogs for a historic parade, and 10 Feral Hogs delivered beyond my expectations. The batch of ten arrived in excellent condition and were perfectly trained for the event. Their professionalism and the quality of the hogs are unmatched. This is my go-to hog supplier from now on!"</p>
                          </div>
                       </div>
                    </div>
@@ -322,8 +329,8 @@
                    <div class="row">
                       <div class="col-md-12">
                          <div class="testimonial_section_2">
-                            <h4 class="client_name_text">Monila <span class="quick_icon"><img src="images/quick-icon.png"></span></h4>
-                            <p class="customer_text">many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All themany variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some embarrassing hidden in the middle of text. All the</p>
+                            <h4 class="client_name_text">Roger B. (Police Officer)<span class="quick_icon"><img src="images/quick-icon.png"></span></h4>
+                            <p class="customer_text">"Our security team was in need of a batch of highly trained police hogs, and 10 Feral Hogs came through. These hogs are intelligent, disciplined, and a real asset to our patrol units. We’ve seen a significant improvement in our operations since their arrival. Exceptional service and incredible animals!"</p>
                          </div>
                       </div>
                    </div>
@@ -346,6 +353,7 @@
       <!-- sidebar -->
       <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
       <script src="js/custom.js"></script>   
+      <script src="script.js"></script>
       
       <?php
 include 'includes/footer.php'
