@@ -323,6 +323,7 @@ button {
     padding: 15px 40px;
     font-size: 14px;
     text-transform: uppercase;
+    
 }
 
 .learnmore_bt a:hover {
@@ -514,7 +515,7 @@ img.image {
     display: flex;
 }
 
-body {background-color: #10e2bd !important;}
+body {background-color: white !important;}
 
 
 
