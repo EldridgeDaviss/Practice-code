@@ -85,12 +85,12 @@
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="headingFive">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                            Tab 5
+                            Hog meat is tasty and good for you.
                         </button>
                     </h2>
                     <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                            Content for Tab 5 goes here.
+                            While our hogs are mostly meant as pets. If you so choose, you could eat them. Their meat is full of protein and tastes gamey, very good for roasts and stews.
                         </div>
                     </div>
                 </div>
@@ -99,12 +99,12 @@
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="headingSix">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                            Tab 6
+                            Owning a hog will inspire you to exercise more
                         </button>
                     </h2>
                     <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                            Content for Tab 6 goes here.
+                            The physical needs of your feral hogs are very important to their health. If they don't get proper exercise everyday they could have health issues. If you are a responsible owner, that means you'll want to be going on walk with your hog and in general getting out and moving with your pet.
                         </div>
                     </div>
                 </div>
