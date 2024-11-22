@@ -1,3 +1,12 @@
+
+
+
+<?php
+  include 'includes/header.php';
+
+// Check if the popup has been shown before
+$popupShown = isset($_SESSION['popupShown']) ? $_SESSION['popupShown'] : false;
+?>
 <!DOCTYPE html>
 <html lang="en">
    <head>
@@ -32,18 +41,107 @@
 
       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    
+    
+
+
+
       <style>
-        body {
-            cursor: url('images/custom-cursor.png'), auto;
+        /* Popup styling */
+        #exitPopup {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.8);
+            z-index: 9999;
+        }
+        #exitPopup .popup-content {
+            position: relative;
+            margin: 10% auto;
+            width: 80%;
+            max-width: 400px;
+            background: white;
+            padding: 20px;
+            text-align: center;
+            border-radius: 8px;
+        }
+        #exitPopup h2 {
+            color: #382102;
+        }
+        #exitPopup button {
+            background-color: #382102;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        #exitPopup button:hover {
+            background-color: #5a3d15;
         }
     </style>
+</head>
+<body>
+
+
+
+    <!-- Discount Popup -->
+    <div id="exitPopup">
+        <div class="popup-content">
+            <h2>Wait! Don't Leave Yet!</h2>
+            <p>We have a special offer for you:</p>
+            <p><strong>Get 10% off your first order!</strong></p>
+            <p>Use code: <strong>WELCOME10</strong> at checkout.</p>
+            <button id="closePopup">Claim Offer</button>
+        </div>
+    </div>
+
+    <script>
+        // JavaScript for exit intent detection and popup management
+        let popupShown = <?php echo $popupShown ? 'true' : 'false'; ?>;
+
+        if (!popupShown) {
+            document.addEventListener("mouseleave", (e) => {
+                if (e.clientY < 0 && !popupShown) { // Detect mouse leaving the viewport
+                    document.getElementById("exitPopup").style.display = "block";
+                    popupShown = true;
+
+                    // Notify server to remember popup has been shown
+                    fetch("index.php?action=shown").then(response => {
+                        if (!response.ok) console.error("Failed to notify server.");
+                    });
+                }
+            });
+
+            document.getElementById("closePopup").addEventListener("click", () => {
+                document.getElementById("exitPopup").style.display = "none";
+            });
+        }
+    </script>
+
+    <?php
+    // Handle the server-side action to store that the popup has been shown
+    if (isset($_GET['action']) && $_GET['action'] === 'shown') {
+        $_SESSION['popupShown'] = true;
+        exit; // Prevent further HTML rendering
+    }
+    ?>
+
+
+
+
+
+
+
+      
    </head>
    <body>
 
 
-      <?php
-      include 'includes/header.php';
-      ?>
+    
 
 
       <!--header section start -->
