@@ -54,22 +54,28 @@ I, the undersigned, have read, understood, and agreed to the above terms and con
 
 <div class="signature-container">
     <h3>Customer Signature</h3>
-    <div class="canvas-wrapper">
-        <canvas id="signatureCanvas"></canvas>
-    </div>
-    <button id="signatureButton" onclick="clearCanvas()">Clear Signature</button>
-    <div class="input-field">
+    <form id="signatureForm" method="POST" action="includes/submit_form.php">
+        <div class="canvas-wrapper">
+            <canvas id="signatureCanvas" style="border: 1px solid #ccc; width: 100%; height: 200px;"></canvas>
+        </div>
+        <button type="button" id="clearButton" onclick="clearCanvas()">Clear Signature</button>
+        <div class="input-field">
             <label for="customerName">Name:</label>
-            <input type="text" id="customerName" placeholder="Enter your name">
+            <input type="text" id="customerName" name="customerName" placeholder="Enter your name" required>
         </div>
         <div class="input-field">
             <label for="signatureDate">Date:</label>
-            <input type="date" id="signatureDate">
+            <input type="date" id="signatureDate" name="signatureDate" required>
         </div>
+        <input type="hidden" id="signatureInput" name="signature"> <!-- Hidden input for base64 signature -->
+        <button type="submit" class="btn btn-warning">Submit</button>
+    </form>
 </div>
+
 <script>
     const canvas = document.getElementById('signatureCanvas');
     const ctx = canvas.getContext('2d');
+    const signatureInput = document.getElementById('signatureInput');
     let drawing = false;
 
     // Adjust canvas dimensions for proper signature capture
@@ -120,7 +126,20 @@ I, the undersigned, have read, understood, and agreed to the above terms and con
     function clearCanvas() {
         ctx.clearRect(0, 0, canvas.width, canvas.height);
     }
+
+    // Convert canvas to base64 on form submit
+    document.getElementById('signatureForm').addEventListener('submit', (e) => {
+        if (ctx.getImageData(0, 0, canvas.width, canvas.height).data.every((pixel) => pixel === 0)) {
+            e.preventDefault();
+            alert("Please provide a signature.");
+            return;
+        }
+
+        // Convert the canvas content to base64 and store it in the hidden input
+        signatureInput.value = canvas.toDataURL('image/png');
+    });
 </script>
+
 
 </p>
                         <a href="hogs.php" class="btn btn-warning">Make your purchase</a>
