@@ -12,6 +12,33 @@
     ?>
    <br>
     <title>Home</title>
+
+
+    <style>
+        /* Reset margins and paddings for the body and html */
+        body, html {
+            margin: 0;
+            padding: 0;
+            min-height: 100vh; /* Ensure the body stretches to full height */
+            display: flex;
+            flex-direction: column; /* Makes the body behave like a flex container */
+        }
+
+        /* Content wrapper ensures the main content pushes the footer to the bottom */
+        .content {
+            flex: 1; /* Expands to take up available space */
+        }
+
+        /* Footer styles */
+        footer {
+            background-color: #382102;
+            color: #fff;
+            ;
+            ;
+        }
+
+        body{height: 100vh}
+    </style>
 </head>
 <body>
 
