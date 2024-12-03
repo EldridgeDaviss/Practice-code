@@ -1,16 +1,15 @@
-<link rel="stylesheet" href="footer.css"> 
- 
- <!--Footer-->
- <div class="footerdown">
-<footer class="footer-area footer--light ">
+<link rel="stylesheet" href="footer.css">
+
+<!--Footer-->
+<div class="footerdown">
+  <footer class="footer-area footer--light">
     <div class="footer-big">
-      <!-- start .container -->
-      <div class="container">
+      <!-- start .container-fluid -->
+      <div class="container-fluid">
         <div class="row">
           <div class="col-md-3 col-sm-12">
             <div class="footer-widget">
               <div class="widget-about">
-               
                 <h4 class="footer-widget-title">Description & Company Background</h4>
                 <p>We strive to bring a revolution of feral Hogs to the forefront of American style and class.</p>
                 <ul class="contact-details">
@@ -36,7 +35,6 @@
                   <li>
                     <a href="#">About Us</a>
                   </li>
-                  
                   <li>
                     <a href="#">Help</a>
                   </li>
@@ -44,10 +42,8 @@
                     <a href="#">Privacy Policy</a>
                   </li>
                   <li>
-                    <a href="">Terms & Conditions</a>
+                    <a href="#">Terms & Conditions</a>
                   </li>
-                  
-                 
                 </ul>
               </div>
               <!-- end /.footer-menu -->
@@ -55,7 +51,7 @@
             <!-- Ends: .footer-widget -->
           </div>
           <!-- end /.col-md-3 -->
-  
+
           <div class="col-md-3 col-sm-4">
             <div class="footer-widget">
               <div class="footer-menu">
@@ -70,7 +66,6 @@
                   <li>
                     <a href="#">Returns & Exchanges</a>
                   </li>
-            
                 </ul>
               </div>
               <!-- end /.footer-menu -->
@@ -78,7 +73,7 @@
             <!-- Ends: .footer-widget -->
           </div>
           <!-- end /.col-lg-3 -->
-  
+
           <div class="col-md-3 col-sm-4">
             <div class="footer-widget">
               <div class="footer-menu no-padding">
@@ -91,10 +86,8 @@
                     <a href="#">Terms &amp; Size Charts</a>
                   </li>
                   <li>
-                    <a href="">Sign In/Become a Member</a>
+                    <a href="#">Sign In/Become a Member</a>
                   </li>
-                  
-                  
                 </ul>
               </div>
               <!-- end /.footer-menu -->
@@ -102,16 +95,16 @@
             <!-- Ends: .footer-widget -->
           </div>
           <!-- Ends: .col-lg-3 -->
-  
+
         </div>
         <!-- end /.row -->
       </div>
-      <!-- end /.container -->
+      <!-- end .container-fluid -->
     </div>
-    <!-- end /.footer-big -->
-  
+    <!-- end .footer-big -->
+
     <div class="mini-footer">
-      <div class="container">
+      <div class="container-fluid">
         <div class="row">
           <div class="col-md-12">
             <div class="copyright-text">
@@ -120,13 +113,9 @@
                 <a href="#">10 Feral Hogs</a>
               </p>
             </div>
-  
-            
-             
-            </div>
           </div>
         </div>
       </div>
     </div>
   </footer>
-  </div>
+</div>

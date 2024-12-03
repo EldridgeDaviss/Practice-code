@@ -86,17 +86,10 @@
     <div class="cart-dropdown" id="cartDropdown">
       <button class="close-btn" onclick="toggleCartDropdown()">✖</button>
       <div class="cart-item">
-        <span class="cart-item-name">Product 1</span>
-        <span class="cart-item-price">$10.00</span>
+        <span class="cart-item-name">See checkout page.</span>
+        <span class="cart-item-price">For Payment info.</span>
       </div>
-      <div class="cart-item">
-        <span class="cart-item-name">Product 2</span>
-        <span class="cart-item-price">$15.00</span>
-      </div>
-      <div class="cart-item">
-        <span class="cart-item-name">Product 3</span>
-        <span class="cart-item-price">$20.00</span>
-      </div>
+      
       <a href="checkout.php" class="view-cart-btn">Go to Checkout</a>
     </div>
   </div>
