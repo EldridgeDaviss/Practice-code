@@ -73,7 +73,7 @@
                     <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
                            <p>"I was building a cabin in the woods, right outside Cherokee National Forest and i heard hogs up on the ridge. My first thought was to call 10 Feral Hogs. They immediatly came and rescued the Hogs, ensuring they went to a good home"</p>
-                        <p >We interviewed a man from the mountains of southern Appalchia to detail his experience with our busniess. This is what he had to say.</p>
+                        <p >We interviewed a man from the mountains of southern Appalachia to detail his experience with our busniess. Here is what he had to say.</p>
 
                             <h4>"I was building a cabin in the woods, right outside Cherokee National Forest and i heard hogs up on the ridge. My first thought was to call 10 Feral Hogs. They immediatly came and rescued the Hogs, ensuring they went to a good home" <br> -Brian Buchholz 2025 TSSAA Boys Class A Cross Country Champion</h4></p>
                         </div>
