@@ -38,7 +38,7 @@
             <!-- Statement 2 -->
             <div class="col-md-4">
                 <div class="card h-100">
-                    <img src="images/profile.jpg" class="card-img-top rounded-circle mx-auto mt-3" alt="Mason Blankenship" style="width: 100px; height: 100px; object-fit: cover;">
+                    <img src="images/rataboutus.jpg" class="card-img-top rounded-circle mx-auto mt-3" alt="Mason Blankenship" style="width: 100px; height: 100px; object-fit: cover;">
                     <div class="card-body text-center">
                         <h5 class="card-title">Mason Blankenship</h5>
                         <p class="card-text">
