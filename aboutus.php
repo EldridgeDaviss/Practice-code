@@ -30,20 +30,38 @@
                     <div class="card-body text-center">
                         <h5 class="card-title">Samuel Latham</h5>
                         <p class="card-text">
-                            "There is no greater joy than that of the hero. At 10 Feral Hogs, we strive to not only bask in that joy but bring it to our customers. Our product brings success, not only in attaining that goal but also in being the better person."
+                            "There is no greater joy than that of the hero. At 10 Feral Hogs, we strive to not only bask in that joy but bring it to our customers."
                         </p>
+                        <!-- More Info Button -->
+                        <button class="btn btn-info" data-bs-toggle="collapse" href="#samuelMoreInfo" role="button" aria-expanded="false" aria-controls="samuelMoreInfo">More Info</button>
+                        <div class="collapse mt-3" id="samuelMoreInfo">
+                            <div class="card card-body">
+                                <p><strong>Job Title:</strong> Chief Visionary Officer</p>
+                                <p><strong>Former Experience:</strong> 10+ years in product development and innovation. Former senior consultant for top Fortune 500 companies.</p>
+                                <p><strong>Expertise:</strong> Leadership, Strategic Planning, and Business Innovation.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
             <!-- Statement 2 -->
             <div class="col-md-4">
                 <div class="card h-100">
-                    <img src="images/profile.jpg" class="card-img-top rounded-circle mx-auto mt-3" alt="Mason Blankenship" style="width: 100px; height: 100px; object-fit: cover;">
+                    <img src="images/rataboutus.jpg" class="card-img-top rounded-circle mx-auto mt-3" alt="Mason Blankenship" style="width: 100px; height: 100px; object-fit: cover;">
                     <div class="card-body text-center">
                         <h5 class="card-title">Mason Blankenship</h5>
                         <p class="card-text">
-                            "Ever since I was a boy, I've wanted to work with animals and spread that love to others. No animal is more misunderstood than the common feral hog. We aim to change the public's thoughts from pests to intelligent creatures deserving love."
+                            "Ever since I was a boy, I've wanted to work with animals and spread that love to others."
                         </p>
+                        <!-- More Info Button -->
+                        <button class="btn btn-info" data-bs-toggle="collapse" href="#masonMoreInfo" role="button" aria-expanded="false" aria-controls="masonMoreInfo">More Info</button>
+                        <div class="collapse mt-3" id="masonMoreInfo">
+                            <div class="card card-body">
+                                <p><strong>Job Title:</strong> Director of Animal Welfare</p>
+                                <p><strong>Former Experience:</strong> Worked at various wildlife rescue centers and farms, focusing on animal behavior training and rehabilitation.</p>
+                                <p><strong>Expertise:</strong> Animal Training, Public Education, and Wildlife Rehabilitation.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -54,13 +72,88 @@
                     <div class="card-body text-center">
                         <h5 class="card-title">Eldridge Davis</h5>
                         <p class="card-text">
-                            "Our mission is to humanely transform wild hogs into well-adjusted animals through compassionate training and sustainable practices, turning challenges into opportunities for positive ecosystem change."
+                            "Our mission is to humanely transform wild hogs into well-adjusted animals through compassionate training."
                         </p>
+                        <!-- More Info Button -->
+                        <button class="btn btn-info" data-bs-toggle="collapse" href="#eldridgeMoreInfo" role="button" aria-expanded="false" aria-controls="eldridgeMoreInfo">More Info</button>
+                        <div class="collapse mt-3" id="eldridgeMoreInfo">
+                            <div class="card card-body">
+                                <p><strong>Job Title:</strong> Chief Operating Officer</p>
+                                <p><strong>Former Experience:</strong> Over 12 years of experience working in wildlife management and sustainable farming practices.</p>
+                                <p><strong>Expertise:</strong> Wildlife Management, Sustainable Practices, and Ecosystem Restoration.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
+    <!-- Modal for Samuel Latham -->
+    <div class="modal fade" id="samuelModal" tabindex="-1" aria-labelledby="samuelModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="samuelModalLabel">Samuel Latham</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="images/profile.jpg" class="rounded-circle mb-3" alt="Samuel Latham" style="width: 100px; height: 100px; object-fit: cover;">
+                    <p>"There is no greater joy than that of the hero. At 10 Feral Hogs, we strive to not only bask in that joy but bring it to our customers."</p>
+                    <p><strong>Job Title:</strong> Chief Visionary Officer</p>
+                    <p><strong>Former Experience:</strong> 10+ years in product development and innovation.</p>
+                    <p><strong>Expertise:</strong> Leadership, Strategic Planning, Business Innovation, and Environmental Sustainability.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal for Mason Blankenship -->
+    <div class="modal fade" id="masonModal" tabindex="-1" aria-labelledby="masonModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="masonModalLabel">Mason Blankenship</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="images/profile.jpg" class="rounded-circle mb-3" alt="Mason Blankenship" style="width: 100px; height: 100px; object-fit: cover;">
+                    <p>"Ever since I was a boy, I've wanted to work with animals and spread that love to others."</p>
+                    <p><strong>Job Title:</strong> Director of Animal Welfare</p>
+                    <p><strong>Former Experience:</strong> Worked at various wildlife rescue centers and farms.</p>
+                    <p><strong>Expertise:</strong> Animal Training, Public Education, and Wildlife Rehabilitation.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal for Eldridge Davis -->
+    <div class="modal fade" id="eldridgeModal" tabindex="-1" aria-labelledby="eldridgeModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="eldridgeModalLabel">Eldridge Davis</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="images/profile.jpg" class="rounded-circle mb-3" alt="Eldridge Davis" style="width: 100px; height: 100px; object-fit: cover;">
+                    <p>"Our mission is to humanely transform wild hogs into well-adjusted animals through compassionate training."</p>
+                    <p><strong>Job Title:</strong> Chief Operating Officer</p>
+                    <p><strong>Former Experience:</strong> Over 12 years in wildlife management and sustainable farming practices.</p>
+                    <p><strong>Expertise:</strong> Wildlife Management, Ecosystem Restoration, and Sustainable Practices.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- Call to Action -->
     <section class="text-center py-5" style="background-color: #f8f9fa;">
