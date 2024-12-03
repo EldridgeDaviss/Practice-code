@@ -59,7 +59,7 @@
                         <div class="accordion-body">
                             <img src="img/assorted/2024_10_31_0c9_Kleki.png" alt="">
                             <br>
-                            <p>Whichever green zone your house is in, your hogs will come from the red counties within that zone. (Customers outside the contiguous 48 will recieve hogs from  ) </p>
+                            <p>Whichever green zone your house is in, your hogs will come from the red counties within that zone. (Customers outside the contiguous 48 will recieve our excess stock from Texas.) </p>
                         </div>
                     </div>
                 </div>
