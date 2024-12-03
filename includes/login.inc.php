@@ -31,8 +31,8 @@ if ($pwdCheck == false) {
 }
 else if ($pwdCheck == true) {
   session_start();
-  $_SESSION['userId'] = $row['idUsers'];
-  $_SESSION['userUid'] = $row['uidUsers'];
+  $_SESSION['userId'] = $row['idUsers'] = $user['idUsers'];
+  $_SESSION['userUid'] = $row['uidUsers'] = $user['uidUsers'];
 
   header("Location: ../index.php?login=success");
     exit();

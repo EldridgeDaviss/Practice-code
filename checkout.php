@@ -16,7 +16,7 @@
 <body>
 <div class="container text-center my-4">
     <h2>Your Cart</h2>
-    <p>Items: 3 | Total: $150</p>
+    <p>PRE ORDER PAYMENT INFO</p>
     <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#checkoutModal">
         Proceed to Checkout
     </button>
@@ -34,27 +34,23 @@
             <!-- Modal Body -->
             <div class="modal-body">
                 <p><strong>Order Summary</strong></p>
-                <ul>
-                    <li>Item 1 - $50</li>
-                    <li>Item 2 - $50</li>
-                    <li>Item 3 - $50</li>
-                </ul>
+                <h6>ALL CURRENT PURCHASE REQUESTS ARE ON PREORDER. PLEASE ENTER PAYMENT INFORMATION SO WE CAN PROCESS YOUR ORDERS.</h6>
                 <hr>
-                <p><strong>Total: $150</strong></p>
-                <form id="payment-form">
-                    <div class="mb-3">
-                        <label for="cardNumber" class="form-label">Card Number</label>
-                        <input type="text" class="form-control" id="cardNumber" placeholder="1234 5678 9012 3456" required>
-                    </div>
-                    <div class="mb-3">
-                        <label for="expiryDate" class="form-label">Expiry Date</label>
-                        <input type="text" class="form-control" id="expiryDate" placeholder="MM/YY" required>
-                    </div>
-                    <div class="mb-3">
-                        <label for="cvv" class="form-label">CVV</label>
-                        <input type="text" class="form-control" id="cvv" placeholder="123" required>
-                    </div>
-                    <div id="payment-message" class="text-success mt-2"></div>
+                <p><strong>AS SOON AS THE FIRST ROUND OF ORDERS IS TOGETHER YOU WILL HAVE PRIORITY</strong></p>
+                <form action="includes/process_payment.php" method="POST">
+                    <label for="card_number">Card Number:</label>
+                        <input type="text" id="card_number" name="card_number" maxlength="16" required><br>
+
+                    <label for="expiration_date">Expiration Date:</label>
+                        <input type="month" id="expiration_date" name="expiration_date" required><br>
+
+                    <label for="cvv">Security Code (CVV):</label>
+                        <input type="text" id="cvv" name="cvv" maxlength="4" required><br>
+
+                    <label for="billing_address">Billing Address:</label>
+                        <textarea id="billing_address" name="billing_address" required></textarea>
+
+                    <button type="submit">Submit</button>
                 </form>
             </div>
             <!-- Modal Footer -->
