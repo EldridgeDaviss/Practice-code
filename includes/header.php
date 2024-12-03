@@ -180,6 +180,7 @@ $popupShown = isset($_SESSION['popupShown']) ? $_SESSION['popupShown'] : false;
         <li class="nav-item"><a class="nav-link text-white" href="legalities.php">Legalities</a></li>
         <li class="nav-item"><a class="nav-link text-white" href="aboutus.php">About Us</a></li>
         <li class="nav-item"><a class="nav-link text-white" href="contact.php">Contact</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="raffle.php">Raffle</a></li>
       </ul>
       <div class="d-flex align-items-center">
         <?php
