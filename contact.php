@@ -54,7 +54,7 @@
               <input class="app-form-control" placeholder="EMAIL" name="email">
             </div>
             <div class="app-form-group">
-              <input class="app-form-control" placeholder="TITLE">
+              <input class="app-form-control" placeholder="SUBJECT">
             </div>
             <div class="app-form-group message">
               <input class="app-form-control" placeholder="MESSAGE" name="message">
